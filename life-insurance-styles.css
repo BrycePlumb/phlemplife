@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Header */
+header {
+  background-color: #333; /* Dark gray */
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  color: #00b300; /* Green */
+}
+
+header nav {
+  padding: 10px 0;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav ul li:first-child a {
+  background-color: #00b300; /* Green */
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main {
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+section#life-insurance {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+  text-align: center;
+}
+
+section#life-insurance h1 {
+  color: #0077c9;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+section#life-insurance p {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+section#life-insurance ul {
+  font-size: 16px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+section#life-insurance li {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+section#life-insurance button {
+  background-color: #0077c9;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+section#life-insurance button:hover {
+  background-color: #005b9f;
+}
