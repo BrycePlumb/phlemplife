@@ -35,44 +35,50 @@ header {
   z-index: 1;
 }
 
-nav ul {
+/* Navigation menu styles */
+.nav-menu {
+  display: none;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  background-color: var(--primary);
+  color: #fff;
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  align-items: center;
 }
 
-nav li {
-  margin: 0 20px;
+.nav-menu li {
+  padding: 10px 20px;
 }
 
-nav a {
+.nav-menu a {
   color: #fff;
   font-size: 1.2em;
   text-transform: uppercase;
-  padding: 10px;
-  transition: all 0.2s ease-in-out;
+  display: block;
 }
 
-nav a:hover {
-  background-color: #fff;
-  color: var(--primary);
-  text-decoration: none;
+/* Show/hide navigation menu when menu button is clicked */
+.menu-button {
+  display: none;
 }
 
-/* Hero section */
-.hero {
-  height: 400px;
-  background-image: url(hero-bg.jpg);
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: #fff;
+@media (max-width: 600px) {
+  .menu-button {
+    display: block;
+  }
+  .nav-menu {
+    display: none;
+  }
 }
+
+.menu-button:focus + .nav-menu {
+  display: block;
+}
+
+
 
 .hero h1 {
   font-size: 4em;
