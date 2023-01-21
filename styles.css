@@ -4,82 +4,68 @@
 
 
 
-@charset "UTF-8";
+/* Mobile-first styles */
+/* Use a mobile-first approach by applying styles for mobile devices first, then adjusting for larger screens */
 
-
-/* General Styles */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
+    font-size: 16px;
+    line-height: 1.6;
 }
 
-/* Header */
 header {
-  background-color: #333; /* Dark gray */
-  color: white;
-  padding: 20px;
+    padding: 10px;
+    text-align: center;
 }
 
-header h1 {
-  margin: 0;
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
-header nav {
-  padding: 10px 0;
+nav li {
+    display: inline-block;
+    margin: 0 10px;
 }
 
-header nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex; /* display the links in a row */
-  align-items: center; /* align the links to the center */
+nav a {
+    color: #444;
+    text-decoration: none;
 }
 
-header nav ul li {
-  margin-right: 10px;
-}
-
-header nav ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-header nav ul li a.active { /* added class for active link */
-  background-color: #00b300; /* Green */
-  padding: 10px 20px;
-  border-radius: 4px;
-}
-
-/* Product Container */
 .product-container {
-  display: flex; /* display the products in a row */
-  justify-content: space-between; /* add space between the products */
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .product {
-  text-align: center;
+    flex: 1;
+    text-align: center;
 }
 
-.product img {
-  width: 80px;
-  margin-bottom: 20px;
+img {
+    max-width: 100%;
 }
 
-/* Call-to-action Buttons */
 .button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #00b300; /* Green */
-  color: white;
-  text-decoration: none;
-  border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
 }
 
-/* Footer */
-footer {
-  background-color: #333; /* Dark gray */
-  color: white;
-  text-align: center;
-  padding: 20px;
+/* Media Queries */
+/* Use media queries to adjust styles for larger screens */
+
+@media (min-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+    nav li {
+        margin: 0 20px;
+    }
+    .product {
+        flex: 1 1 300px;
+    }
 }
