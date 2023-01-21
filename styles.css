@@ -3,7 +3,6 @@
 
 
 
-
 /* Custom color palette */
 :root {
   --primary: #00A86B;
@@ -107,14 +106,14 @@ nav a:hover {
 
 .product h3 {
   color: var(--primary);
-font-size: 1.4em;
-margin: 10px 0;
+  font-size: 1.4em;
+  margin: 10px 0;
 }
 
 .product p {
-font-size: 1.2em;
-text-align: left;
-line-height: 1.5;
+  font-size: 1.2em;
+  text-align: left;
+  line-height: 1.5;
 }
 
 /* Call to action section */
@@ -159,12 +158,22 @@ text-align: center;
 }
 
 /* Media Queries */
-@media (min-width: 600px) {
-nav li {
-margin: 0 20px;
+@media (max-width: 600px) {
+/Adjust the font-size of headings and text for smaller screens/
+h1, h2, h3, p {
+font-size: 1em;
 }
-.product {
-flex: 1 1 300px;
+/Adjust the padding and margin for smaller screens/
+header, .products, .product, .cta, footer {
+padding: 20px;
+margin: 20px;
+}
+/Adjust the size of images for smaller screens/
+.product img {
+max-width: 50%;
+}
+/Remove the fixed position of the navigation bar for smaller screens/
+header {
+position: relative;
 }
 }
-
