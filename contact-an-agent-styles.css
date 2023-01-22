@@ -110,9 +110,14 @@ footer {
   padding: 1rem;
 }
 
-/* Media Queries */
+/* Media Queries for responsive design /
 @media (max-width: 600px) {
-  .product-container {
-    flex-direction: column;
-  }
+/ Navigation */
+nav {
+text-align: left;
+overflow: hidden;
+}
+nav li {
+display: block;
+margin: 10px 0;
 }
