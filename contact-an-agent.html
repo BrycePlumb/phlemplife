@@ -40,9 +40,6 @@
         <li><a href="life-insurance.html">Life Insurance</a></li>
         <li><a href="about-us.html">About Us</a></li>
         <li><a href="contact-an-agent.html">Contact an Agent</a></li>
-        <li><a href="become-an-agent.html">Become an Agent</a></li>
-        <li><a href="login.html">Login</a></li>
-      </ul>
     </nav>
 
 
@@ -53,7 +50,7 @@
 	
 	
 	<h1>Contact an Agent</h1>
-<p>Need help with your insurance policy or have a question about coverage? Our team of experienced agents is here to help. Simply fill out the form below and we'll get back to you as soon as possible.</p>
+<p>Need help with an annuity or life insurance policy? Simply fill out the form below to schedule your consultation</p>
 
 <form method="post" action="send_message.php">
   <label for="name">Name:</label><br>
@@ -61,70 +58,33 @@
   <label for="email">Email:</label><br>
   <input type="email" id="email" name="email" required><br>
   <label for="phone">Phone:</label><br>
-  <input type="text" id="phone" name="phone"><br>
+  <input type="text" id="phone" name="phone" required><br>
+  <label for="income">Annual Income:</label><br>
+  <input type="text" id="income" name="income" required><br>
+  <label for="age">Age:</label><br>
+  <input type="number" id="age" name="age" required><br>
+  <label for="product_interest">Product Interest:</label><br>
+  <select id="product_interest" name="product_interest" required>
+    <option value=""></option>
+    <option value="annuity">Annuity</option>
+    <option value="life_insurance">Life Insurance</option>
+    <option value="both">Both</option>
+  </select><br>
+  <label for="coverage_amount">Desired Coverage Amount:</label><br>
+  <input type="text" id="coverage_amount" name="coverage_amount" required><br>
+  <label for="consultation_type">Consultation Type:</label><br>
+  <select id="consultation_type" name="consultation_type" required>
+    <option value=""></option>
+    <option value="zoom">Zoom</option>
+    <option value="in_home">In-home</option>
+    <option value="in_office">In-office</option>
+  </select><br>
   <label for="message">Message:</label><br>
-  <textarea id="message" name="message" required></textarea><br>
-  <input type="submit" value="Send">
-</form> 
+  <textarea id="message" name="message"></textarea><br>
+  <input type="submit" value="Schedule a Consultation">
+</form>
 
-<p>You can also reach us by phone at 469-251-9023 or by email at agents@example.com.</p>
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-<?php
-
-// Connect to the MySQL database
-$host = 'localhost';
-$user = 'username';
-$password = 'password';
-$database = 'contact_agent';
-$conn = mysqli_connect($host, $user, $password, $database);
-
-// Check for connection errors
-if (mysqli_connect_errno()) {
-  die('Failed to connect to MySQL: ' . mysqli_connect_error());
-}
-
-// Get the form data
-$name = $_POST['name'];
-$email = $_POST['email'];
-$phone = $_POST['phone'];
-$message = $_POST['message'];
-
-// Escape the form data to prevent SQL injection attacks
-$name = mysqli_real_escape_string($conn, $name);
-$email = mysqli_real_escape_string($conn, $email);
-$phone = mysqli_real_escape_string($conn, $phone);
-$message = mysqli_real_escape_string($conn, $message);
-
-// Build the SQL query
-$query = "INSERT INTO messages (name, email, phone, message) VALUES ('$name', '$email', '$phone', '$message')";
-
-// Execute the query
-$result = mysqli_query($conn, $query);
-
-// Check for errors
-if (!$result) {
-  die('Error: ' . mysqli_error($conn));
-}
-
-// Close the connection
-mysqli_close($conn);
-
-?>
-
-	
-	
+<p>You can also reach us by phone at 469-251-9023 or by email at fflwithbryce@gmail.com.</p>
 	
 	
 	
