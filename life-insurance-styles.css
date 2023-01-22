@@ -1,118 +1,80 @@
-@charset "UTF-8";
-
-
-
+/* Basic styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
+  padding: 0;
 }
 
 /* Header */
 header {
-  background-color: #333; /* Dark gray */
+  background-color: #333;
   color: white;
   padding: 20px;
 }
 
-header h1 {
-  margin: 0;
-  color: #00b300; /* Green */
+/* Navigation */
+nav {
+  background-color: #f2f2f2;
+  padding: 10px;
 }
 
-header nav {
-  padding: 10px 0;
-}
-
-header nav ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-header nav ul li {
+nav li {
   display: inline-block;
-  margin-right: 10px;
 }
 
-header nav ul li a {
-  color: white;
+nav a {
+  color: #333;
   text-decoration: none;
-}
-
-header nav ul li:first-child a {
-  background-color: #00b300; /* Green */
   padding: 10px 20px;
-  border-radius: 4px;
 }
 
+nav a:hover {
+  background-color: #333;
+  color: white;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-main {
+/* Section */
+section#life-insurance {
   padding: 20px;
 }
 
+section#life-insurance h1 {
+  margin-top: 0;
+}
 
+section#life-insurance button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
 
+section#life-insurance button:hover {
+  background-color: #555;
+}
 
-
-
-
-
-section#life-insurance {
-  margin: 0 auto;
-  max-width: 800px;
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
   padding: 20px;
   text-align: center;
 }
 
-section#life-insurance h1 {
-  color: #0077c9;
-  font-size: 32px;
-  margin-bottom: 20px;
-}
+/* Responsive styles */
+@media (max-width: 600px) {
+  nav {
+    text-align: center;
+  }
 
-section#life-insurance p {
-  color: #333;
-  font-size: 16px;
-  line-height: 1.5;
-  margin-bottom: 20px;
-}
-
-section#life-insurance ul {
-  font-size: 16px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-section#life-insurance li {
-  color: #333;
-  margin-bottom: 10px;
-}
-
-section#life-insurance button {
-  background-color: #0077c9;
-  border: none;
-  color: #fff;
-  cursor: pointer;
-  font-size: 16px;
-  padding: 10px 20px;
-}
-
-section#life-insurance button:hover {
-  background-color: #005b9f;
+  nav li {
+    display: block;
+  }
 }
