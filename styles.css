@@ -1,47 +1,41 @@
-/* Global Styles */
+/* Basic styling */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-/* Header Styles */
+/* Header */
 header {
-  background-color: #F5F5F5;
+  background-color: #39a5dc;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
 }
 
-.hero-section {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem;
-}
-
-.logo-image {
-  height: 50px;
-}
-
+/* Navigation */
 nav {
-  display: flex;
+  background-color: #f7f7f7;
+  text-align: center;
 }
-
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
 nav li {
-  margin-right: 1rem;
+  display: inline-block;
 }
-
 nav a {
   color: #333;
   text-decoration: none;
-}
-
-nav a.active {
+  padding: 10px;
+  margin: 0 10px;
   font-weight: bold;
+}
+nav a:hover {
+  background-color: #39a5dc;
+  color: #fff;
 }
 
 /* Product Styles */
