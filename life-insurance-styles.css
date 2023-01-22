@@ -86,13 +86,25 @@ footer {
   text-align: center;
 }
 
-/* Responsive styles */
+/* Media Queries for responsive design /
 @media (max-width: 600px) {
-  nav {
-    text-align: center;
+/ Navigation */
+nav {
+text-align: left;
+overflow: hidden;
+}
+nav li {
+display: block;
+margin: 10px 0;
+}
+
+  /* Product Styles */
+  .product-container {
+    flex-wrap: wrap;
   }
 
-  nav li {
-    display: block;
+  .product {
+    flex-basis: 100%;
   }
 }
+
