@@ -37,22 +37,29 @@ nav a:hover {
   color: #fff;
 }
 
-section#life-insurance {
-    padding: 40px; /* increase the padding to make the text more legible */
+section {
+    padding: 40px 80px; /* Add padding to the top and bottom and left and right of the section */
     font-size: 18px; /* Increase font size for readability */
     line-height: 1.5; /* Add some line spacing for readability */
     background-color: #f9f9f9; /* Add some background color to make the text more visible */
     color: #333; /* Change the text color to make it more legible */
     text-align: justify; /* Align the text to both sides of the section */
+    position: relative; /* set position relative to the section to be able to use ::before and ::after */
 }
 
-section#life-insurance h1 {
-    margin-top: 0;
-    font-size: 36px; /* Increase the font size of the heading */
-    font-weight: bold; /* Make the heading bold */
-    text-align: center; /* Center the heading */
-    color: #333; /* Change the color of the heading */
+section::before {
+    content: ""; /* Clear the content */
+    display: block; /* Make the pseudo-element a block element */
+    width: 100%; /* Make the pseudo-element the full width of the section */
+    height: 1px; /* Make the pseudo-element 1px tall */
+    background-color: #ccc; /* Set the background color of the pseudo-element */
+    position: absolute; /* set position absolute to be able to place it at the bottom of the section */
+    left: 0; /* place it at the left of the section */
+    right: 0; /* place it at the right of the section */
+    bottom: 0; /* place it at the bottom of the section */
+    margin: 0 80px; /* add a margin of 80px from left and right to match the padding */
 }
+
 
 section#life-insurance button {
     background-color: #333;
