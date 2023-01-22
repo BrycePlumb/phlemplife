@@ -67,17 +67,17 @@ footer {
   text-align: center;
 }
 
-/* Responsive Styles */
-@media (max-width: 768px) {
-  /* Header Styles */
-  nav {
-    flex-wrap: wrap;
-  }
-
-  nav li {
-    margin-right: 0;
-    margin-bottom: 1rem;
-  }
+/* Media Queries for responsive design /
+@media (max-width: 600px) {
+/ Navigation */
+nav {
+text-align: left;
+overflow: hidden;
+}
+nav li {
+display: block;
+margin: 10px 0;
+}
 
   /* Product Styles */
   .product-container {
