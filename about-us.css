@@ -47,3 +47,29 @@ nav a:hover {
 
 
 
+
+
+
+
+
+
+
+/* Media Queries for responsive design /
+@media (max-width: 600px) {
+/ Navigation */
+nav {
+text-align: left;
+overflow: hidden;
+}
+nav li {
+display: block;
+margin: 10px 0;
+}
+
+
+
+
+
+
+
+
