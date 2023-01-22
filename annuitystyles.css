@@ -1,97 +1,83 @@
-@charset "UTF-8";
-
-
-
-
+/* Basic styling */
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
-}
-
-/* Header */
-header {
-  background-color: #333; /* Dark gray */
-  color: white;
-  padding: 20px;
-}
-
-header h1 {
-  margin: 0;
-  color: #00b300; /* Green */
-}
-
-header nav {
-  padding: 10px 0;
-}
-
-header nav ul {
-  list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-header nav ul li {
+/* Header */
+header {
+  background-color: #39a5dc;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Navigation */
+nav {
+  background-color: #f7f7f7;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
   display: inline-block;
-  margin-right: 10px;
 }
-
-header nav ul li a {
-  color: white;
+nav a {
+  color: #333;
   text-decoration: none;
+  padding: 10px;
+  margin: 0 10px;
+  font-weight: bold;
+}
+nav a:hover {
+  background-color: #39a5dc;
+  color: #fff;
 }
 
-header nav ul li:first-child a {
-  background-color: #00b300; /* Green */
-  padding: 10px 20px;
-  border-radius: 4px;
+/* Annuities section */
+#annuities {
+  padding: 20px;
+}
+#annuities h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+#annuities h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+#annuities p, #annuities li {
+  font-size: 1.2em;
+  line-height: 1.5;
 }
 
-
-
-
-
-
-
-section#annuities {
-  text-align: center; /* Center the text */
-  color: #333; /* Set the text color to a dark grey */
-  font-family: Arial, sans-serif; /* Set the font to Arial */
-  font-size: 16px; /* Set the font size to 16px */
-  padding: 50px; /* Add some padding to the section */
-  background-color: #f1f1f1; /* Set the background color to a light grey */
+/* Media Queries for responsive design /
+@media (max-width: 600px) {
+/ Navigation */
+nav {
+text-align: left;
+overflow: hidden;
+}
+nav li {
+display: block;
+margin: 10px 0;
 }
 
-section#annuities h1 {
-  font-size: 36px; /* Set the font size of the heading to 36px */
-  margin: 20px 0; /* Add some margin to the top and bottom of the heading */
+/* Annuities section */
+#annuities {
+padding: 10px;
 }
-
-section#annuities p {
-  margin: 20px 0; /* Add some margin to the top and bottom of the paragraphs */
+#annuities h1 {
+font-size: 1.5em;
 }
-
-section#annuities ul {
-  list-style-type: none; /* Remove the bullet points from the list */
-  margin: 20px 0; /* Add some margin to the top and bottom of the list */
-  padding: 0; /* Remove the default padding */
+#annuities h2 {
+font-size: 1.2em;
 }
-
-section#annuities li {
-  margin: 10px 0; /* Add some margin to the top and bottom of the list items */
+#annuities p, #annuities li {
+font-size: 1em;
 }
-
-section#annuities button {
-  background-color: #4CAF50; /* Set the background color to green */
-  border: none; /* Remove the border */
-  color: white; /* Set the text color to white */
-  padding: 15px 32px; /* Add some padding to the button */
-  text-align: center; /* Center the text */
-  text-decoration: none; /* Remove the default text decoration */
-  display: inline-block; /* Display the button as an inline-block */
-  cursor: pointer; /* Change the cursor to a pointer when hovering over the button */
-  transition: background-color 0.3s; /* Add a transition to the background color */
-}
-
-section#annuities button:hover {
-  background-color: #45a049; /* Change the background color to a darker green on hover */
 }
