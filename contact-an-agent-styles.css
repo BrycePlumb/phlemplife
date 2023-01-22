@@ -1,45 +1,42 @@
-/* Global Styles */
+/* Basic styling */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-a {
-  text-decoration: none;
-}
-
-/* Header Styles */
+/* Header */
 header {
-  background-color: #4CAF50;
+  background-color: #39a5dc;
   color: #fff;
-  padding: 1rem;
+  text-align: center;
+  padding: 20px;
 }
 
-header .logo-image {
-  height: 50px;
+/* Navigation */
+nav {
+  background-color: #f7f7f7;
+  text-align: center;
 }
-
-header nav {
-  display: flex;
-  justify-content: space-between;
-}
-
-header nav ul {
-  display: flex;
+nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
-header nav ul li {
-  margin-right: 1rem;
+nav li {
+  display: inline-block;
 }
-
-header nav ul li a {
+nav a {
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 10px;
+  font-weight: bold;
+}
+nav a:hover {
+  background-color: #39a5dc;
   color: #fff;
 }
-
 /* Main Content Styles */
 section {
   margin: 2rem 0;
