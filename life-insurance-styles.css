@@ -37,26 +37,39 @@ nav a:hover {
   color: #fff;
 }
 
-/* Section */
 section#life-insurance {
-  padding: 20px;
+    padding: 40px; /* increase the padding to make the text more legible */
+    font-size: 18px; /* Increase font size for readability */
+    line-height: 1.5; /* Add some line spacing for readability */
+    background-color: #f9f9f9; /* Add some background color to make the text more visible */
+    color: #333; /* Change the text color to make it more legible */
+    text-align: justify; /* Align the text to both sides of the section */
 }
 
 section#life-insurance h1 {
-  margin-top: 0;
+    margin-top: 0;
+    font-size: 36px; /* Increase the font size of the heading */
+    font-weight: bold; /* Make the heading bold */
+    text-align: center; /* Center the heading */
+    color: #333; /* Change the color of the heading */
 }
 
 section#life-insurance button {
-  background-color: #333;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px; /* Increase the font size of the button text */
+    font-weight: bold; /* Make the button text bold */
+    border-radius: 20px; /* Add some border radius to make the button more visually appealing */
+    transition: background-color 0.2s ease-in; /* Add a transition effect for the hover state */
 }
 
 section#life-insurance button:hover {
-  background-color: #555;
+    background-color: #555; /* Change the background color on hover */
 }
+
 
 /* Footer */
 footer {
