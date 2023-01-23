@@ -65,20 +65,19 @@ nav a:hover {
 
 section {
     display: flex;
-    background-color: #E5E5E5;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     padding: 20px;
 }
 
-.first-image {
-    margin-left: auto;
-    width: 50px;
-    height: 50px;
+h1, p {
+    padding: 10px;
+    margin: 0;
+    width: 50%;
 }
 
-h1, p {
-    text-align: left;
-    padding: 10px;
-}
 
 
 
