@@ -80,84 +80,59 @@ h1, p {
 }
 
 
-section.annuities {
+/* Common styles for both sections */
+section {
     display: flex;
-    flex-direction: column; /* this sets the direction of the flex items to be vertical */
-    align-items: center; /* this centers the flex items along the cross axis */
-    background-color: #F8F8F8;
+    align-items: center; /* center the items vertically */
     padding: 20px;
 }
 
-.first-image {
-    width: 100%; /* this sets the width to take up the entire container */
+/* Styles for the first image in both sections */
+.first-image, .third-image {
+    width: 40%; /* adjust the width as needed */
     height: auto;
-    align-self: flex-start; /* this aligns the image to the start of the container */
-    order: 1; /* this sets the order of the image to be at the top */
+    align-self: flex-start; /* push the image to the left side */
+    order: 1; /* bring the image to the front */
 }
 
-h2 {
-    text-align: center; /* this centers the text */
-    width: 100%; /* this sets the width to take up the entire container */
-    padding: 10px;
-    margin: 0;
-    order: 2; /* this sets the order of the h2 to be in the middle */
-}
-
-p {
-    text-align: center; /* this centers the text */
-    width: 100%; /* this sets the width to take up the entire container */
-    padding: 10px;
-    margin: 0;
-    order: 3; /* this sets the order of the p to be at the bottom */
-}
-
-
-
-
-.life-insurance {
-    display: flex;
-    flex-direction: column; /* this sets the direction of the flex items to be vertical */
-    align-items: center; /* this centers the flex items along the cross axis */
-    background-color: #F8F8F8;
-    padding: 20px;
-}
-
-.third-image {
-    width: 100%; /* this sets the width to take up the entire container */
+/* Styles for the second image in the annuities section */
+.second-image {
+    width: 20%; /* adjust the width as needed */
     height: auto;
-    align-self: flex-start; /* this aligns the image to the start of the container */
-    order: 1; /* this sets the order of the image to be at the top */
+    align-self: center; /* center the image horizontally */
+    padding-top: 10px; /* adjust the spacing as needed */
+    order: 2; /* bring the image behind the text */
 }
 
+/* Styles for the fourth image in the life insurance section */
 .fourth-image {
-    width: 100%; /* this sets the width to take up the entire container */
+    width: 20%; /* adjust the width as needed */
     height: auto;
-    align-self: center; /* this aligns the image to the center of the container */
-    order: 2; /* this sets the order of the image to be in the middle */
+    align-self: center; /* center the image horizontally */
+    padding-top: 10px; /* adjust the spacing as needed */
+    order: 3; /* bring the image behind the text */
 }
 
-h3 {
-    text-align: center; /* this centers the text */
-    width: 100%; /* this sets the width to take up the entire container */
+/* Styles for the headers and paragraphs in both sections */
+h2, h3, p1, p2, p3, p4 {
+    text-align: left; /* align the text to the right */
+    width: 40%; /* adjust the width as needed */
     padding: 10px;
     margin: 0;
-    order: 3; /* this sets the order of the h3 to be in the middle */
+    order: 2; /* bring the text behind the images */
 }
 
-p {
-    text-align: center; /* this centers the text */
-    width: 100%; /* this sets the width to take up the entire container */
-    padding: 10px;
-    margin: 0;
-    order: 4; /* this sets the order of the p to be at the bottom */
-}
-
-.life-insurance .button {
+/* Styles for the button in both sections */
+.button {
     background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
-    text
-
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 0;
+    order: 3; /* bring the button behind the text */
+}
 
 
 
