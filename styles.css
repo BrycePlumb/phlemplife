@@ -93,18 +93,29 @@ h1, p {
     order: 1;
 }
 
-h2, p {
-    text-align: left;
+.second-image {
     width: 50%;
+    height: auto;
+    align-self: center;
+    order: 2;
+}
+
+h2 {
+    text-align: left;
+    width: 100%;
     padding: 10px;
     margin: 0;
     order: 2;
-    background-color: white;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 20px;
 }
+
+p {
+    text-align: left;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    order: 3;
+}
+
 
 
 
