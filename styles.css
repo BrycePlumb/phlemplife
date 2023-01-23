@@ -117,7 +117,7 @@ section {
 }
 
 .third-image {
-    width: 30%;
+    width: 40%;
     height: auto;
     align-self: flex-end;
     order: 2;
@@ -126,17 +126,18 @@ section {
 .fourth-image {
     width: 20%;
     height: auto;
-    align-self: flex-start;
+    align-self: center;
     padding-top: 10px;
 }
 
 h2, p {
     text-align: center;
-    width: 50%;
+    width: 40%;
     padding: 10px;
     margin: 0;
     order: 1;
 }
+
 
 
 
