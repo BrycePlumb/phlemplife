@@ -80,40 +80,35 @@ h1, p {
 }
 
 
-.annuities {
+section.annuities {
     display: flex;
+    flex-direction: column; /* this sets the direction of the flex items to be vertical */
+    align-items: center; /* this centers the flex items along the cross axis */
     background-color: #F8F8F8;
     padding: 20px;
 }
 
 .first-image {
-    width: 50%;
+    width: 100%; /* this sets the width to take up the entire container */
     height: auto;
-    align-self: center;
-    order: 1;
-}
-
-.second-image {
-    width: 50%;
-    height: auto;
-    align-self: center;
-    order: 2;
+    align-self: flex-start; /* this aligns the image to the start of the container */
+    order: 1; /* this sets the order of the image to be at the top */
 }
 
 h2 {
-    text-align: left;
-    width: 100%;
+    text-align: center; /* this centers the text */
+    width: 100%; /* this sets the width to take up the entire container */
     padding: 10px;
     margin: 0;
-    order: 2;
+    order: 2; /* this sets the order of the h2 to be in the middle */
 }
 
 p {
-    text-align: left;
-    width: 100%;
+    text-align: center; /* this centers the text */
+    width: 100%; /* this sets the width to take up the entire container */
     padding: 10px;
     margin: 0;
-    order: 3;
+    order: 3; /* this sets the order of the p to be at the bottom */
 }
 
 
