@@ -64,7 +64,7 @@ nav a:hover {
 
 
 
-section {
+.welcome {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -80,7 +80,7 @@ h1, p {
 }
 
 
-section {
+.annuities {
     display: flex;
     align-items: center;
 }
@@ -110,17 +110,17 @@ h2, p {
 
 
 
-section {
+.life-insurance {
     display: flex;
     align-items: center;
+    background-color: #F8F8F8;
     padding: 20px;
 }
 
 .third-image {
     width: 40%;
     height: auto;
-    align-self: flex-start;
-    order: 1;
+    align-self: center;
 }
 
 .fourth-image {
@@ -130,12 +130,21 @@ section {
     padding-top: 10px;
 }
 
-h2, p {
+h3, p {
     text-align: left;
     width: 40%;
     padding: 10px;
     margin: 0;
-    order: 2;
+}
+
+.life-insurance .button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 0;
 }
 
 
