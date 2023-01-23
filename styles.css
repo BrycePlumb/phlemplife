@@ -37,17 +37,6 @@ nav a:hover {
   color: #fff;
 }
 
-nav li:last-child {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.logo-image {
-    width: 40px; /* adjust as needed */
-    height: 40px; /* adjust as needed */
-    padding-left: 10px; /* adjust as needed */
-}
-
 
 
 .hero-section {
