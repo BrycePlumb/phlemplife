@@ -89,18 +89,14 @@ section {
 
 /* SPIA section styles */
 #annuities.SPIA {
-     background-color: #fcf8e3;
-;
+    background-color: #fcf8e3;
+    text-align: center;
 }
 
 #annuities.SPIA h1 {
     font-size: 1.5em;
-    color: #3c763d;
-}
-
-#annuities.SPIA p2, #annuities.SPIA p3,
-    font-size: 1.2em;
-    color: #3c763d;
+    color: blue;
+    margin-bottom: 1em;
 }
 
 #annuities.SPIA .bar-image {
@@ -108,7 +104,16 @@ section {
     height: 20px; /* adjust as needed */
     margin: 0 auto;
     display: block;
+    margin-bottom: 1em;
 }
+
+#annuities.SPIA p2;{
+    font-size: 1.2em;
+    color: #3c763d;
+    text-align: center;
+    margin-top: 0;
+}
+
 
 /* FIA section styles */
 #annuities.FIA {
@@ -120,7 +125,7 @@ section {
     color: #8a6d3b;
 }
 
-#annuities.FIA p2, #annuities.FIA p3,
+#annuities.FIA p2,
     font-size: 1.2em;
     color: #8a6d3b;
 }
