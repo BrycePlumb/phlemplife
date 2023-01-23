@@ -82,27 +82,30 @@ h1, p {
 section {
     display: flex;
     align-items: center;
+    background-color: white;
     padding: 20px;
 }
 
 .first-image {
-    width: 20%;
+    width: 40%;
     height: auto;
-    padding-right: 10px;
+    align-self: flex-start;
+    order: 1;
 }
 
 .second-image {
     width: 20%;
     height: auto;
-    align-self: flex-start;
+    align-self: center;
     padding-top: 10px;
 }
 
 h2, p {
     text-align: center;
-    width: 60%;
+    width: 40%;
     padding: 10px;
     margin: 0;
+    order: 2;
 }
 
 
