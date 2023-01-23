@@ -80,58 +80,76 @@ h1, p {
 }
 
 
-/* Common styles for both sections */
-section {
+.annuities {
     display: flex;
-    align-items: center; /* center the items vertically */
-    padding: 20px;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* Styles for the first image in both sections */
-.first-image, .third-image {
-    width: 40%; /* adjust the width as needed */
+.first-image {
+    width: 40%;
     height: auto;
-    align-self: flex-start; /* push the image to the left side */
-    order: 1; /* bring the image to the front */
+    margin-bottom: 10px;
 }
 
-/* Styles for the second image in the annuities section */
 .second-image {
-    width: 20%; /* adjust the width as needed */
+    width: 20%;
     height: auto;
-    align-self: center; /* center the image horizontally */
-    padding-top: 10px; /* adjust the spacing as needed */
-    order: 2; /* bring the image behind the text */
+    margin-bottom: 10px;
 }
 
-/* Styles for the fourth image in the life insurance section */
-.fourth-image {
-    width: 20%; /* adjust the width as needed */
-    height: auto;
-    align-self: center; /* center the image horizontally */
-    padding-top: 10px; /* adjust the spacing as needed */
-    order: 3; /* bring the image behind the text */
-}
-
-/* Styles for the headers and paragraphs in both sections */
-h2, h3, p1, p2, p3, p4 {
-    text-align: left; /* align the text to the right */
-    width: 40%; /* adjust the width as needed */
-    padding: 10px;
-    margin: 0;
-    order: 2; /* bring the text behind the images */
-}
-
-/* Styles for the button in both sections */
-.button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
+h2 {
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 20px 0;
-    order: 3; /* bring the button behind the text */
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+p1, p2 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.button {
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+
+.life-insurance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third-image {
+    width: 40%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.fourth-image {
+    width: 20%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+h3 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+p3, p4 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.button1 {
+    width: 50%;
+    margin: 0 auto;
 }
 
 
