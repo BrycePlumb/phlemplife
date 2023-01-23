@@ -171,6 +171,47 @@ section {
 
 
 
+
+
+
+
+
+/* Schedule section styles */
+#annuities.schedule {
+    background-color: #e9e9e9;
+    padding: 1em;
+    text-align: center;
+}
+
+#annuities.schedule h1 {
+    font-size: 1.5em;
+    color: blue;
+    margin-bottom: 1em;
+}
+
+#annuities.schedule p3 {
+    font-size: 1.2em;
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+
+#annuities.schedule button {
+    background-color: green;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    margin-top: 1em;
+}
+
+
+
+
+
+
+
+
+
 /* Media Queries for responsive design /
 @media (max-width: 600px) {
 / Navigation */
