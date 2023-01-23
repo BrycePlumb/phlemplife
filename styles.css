@@ -107,6 +107,35 @@ h2, p {
 
 
 
+section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.third-image {
+    width: 30%;
+    height: auto;
+    align-self: flex-end;
+    order: 2;
+}
+
+.fourth-image {
+    width: 20%;
+    height: auto;
+    align-self: flex-start;
+    padding-top: 10px;
+}
+
+h2, p {
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    margin: 0;
+    order: 1;
+}
+
+
 
 
 /* Footer Styles */
