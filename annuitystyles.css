@@ -74,12 +74,12 @@ section {
 
 /* Welcome section styles */
 #annuities.welcome {
-    background-color: #d9edf7;
+    background-color: white;
 }
 
 #annuities.welcome h1 {
     font-size: 2em;
-    color: #31708f;
+    color: blue;
 }
 
 #annuities.welcome p1 {
@@ -89,15 +89,16 @@ section {
 
 /* SPIA section styles */
 #annuities.SPIA {
-    background-color: #dff0d8;
+     background-color: #fcf8e3;
+;
 }
 
-#annuities.SPIA h2 {
+#annuities.SPIA h1 {
     font-size: 1.5em;
     color: #3c763d;
 }
 
-#annuities.SPIA p2, #annuities.SPIA p3, #annuities.SPIA p4 {
+#annuities.SPIA p2, #annuities.SPIA p3,
     font-size: 1.2em;
     color: #3c763d;
 }
@@ -114,12 +115,12 @@ section {
     background-color: #fcf8e3;
 }
 
-#annuities.FIA h2 {
+#annuities.FIA h1 {
     font-size: 1.5em;
     color: #8a6d3b;
 }
 
-#annuities.FIA p2, #annuities.FIA p3, #annuities.FIA p4 {
+#annuities.FIA p2, #annuities.FIA p3,
     font-size: 1.2em;
     color: #8a6d3b;
 }
@@ -136,12 +137,12 @@ section {
     background-color: #f2dede;
 }
 
-#annuities.MYGA h2 {
+#annuities.MYGA h1 {
     font-size: 1.5em;
     color: #a94442;
 }
 
-#annuities.MYGA p2, #annuities.MYGA p3, #annuities.MYGA p4 {
+#annuities.MYGA p2, #annuities.MYGA p3,
     font-size: 1.2em;
     color: #a94442;
 }
