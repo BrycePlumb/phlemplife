@@ -62,29 +62,97 @@ nav a:hover {
 
 
 
+/* Default section styles */
 section {
     width: 80%; /* adjust as needed */
     margin: 1em auto;
     text-align: center;
+    padding: 1em;
+    background-color: #f5f5f5;
+    border-radius: 10px;
 }
 
-#annuities.welcome h1, #annuities.options h2, #annuities.schedule h2 {
-    margin: 0;
+/* Welcome section styles */
+#annuities.welcome {
+    background-color: #d9edf7;
 }
 
-#annuities.welcome p1, #annuities.options p2, #annuities.options p3, #annuities.options p4, #annuities.schedule p5 {
-    margin: 0;
+#annuities.welcome h1 {
+    font-size: 2em;
+    color: #31708f;
 }
 
-#annuities.options .logo-image {
+#annuities.welcome p1 {
+    font-size: 1.2em;
+    color: #31708f;
+}
+
+/* SPIA section styles */
+#annuities.SPIA {
+    background-color: #dff0d8;
+}
+
+#annuities.SPIA h2 {
+    font-size: 1.5em;
+    color: #3c763d;
+}
+
+#annuities.SPIA p2, #annuities.SPIA p3, #annuities.SPIA p4 {
+    font-size: 1.2em;
+    color: #3c763d;
+}
+
+#annuities.SPIA .bar-image {
+    width: 100px; /* adjust as needed */
+    height: 20px; /* adjust as needed */
     margin: 0 auto;
     display: block;
 }
 
-#annuities.options button, #annuities.schedule button {
-    margin: 1em auto;
+/* FIA section styles */
+#annuities.FIA {
+    background-color: #fcf8e3;
+}
+
+#annuities.FIA h2 {
+    font-size: 1.5em;
+    color: #8a6d3b;
+}
+
+#annuities.FIA p2, #annuities.FIA p3, #annuities.FIA p4 {
+    font-size: 1.2em;
+    color: #8a6d3b;
+}
+
+#annuities.FIA .bar-image {
+    width: 100px; /* adjust as needed */
+    height: 20px; /* adjust as needed */
+    margin: 0 auto;
     display: block;
 }
+
+/* MYGA section styles */
+#annuities.MYGA {
+    background-color: #f2dede;
+}
+
+#annuities.MYGA h2 {
+    font-size: 1.5em;
+    color: #a94442;
+}
+
+#annuities.MYGA p2, #annuities.MYGA p3, #annuities.MYGA p4 {
+    font-size: 1.2em;
+    color: #a94442;
+}
+
+#annuities.MYGA .bar-image {
+    width: 100px; /* adjust as needed */
+    height: 20px; /* adjust as needed */
+    margin: 0 auto;
+    display: block;
+}
+
 
 
 /* Media Queries for responsive design /
