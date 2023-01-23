@@ -100,6 +100,7 @@ h1, p {
 }
 
 h2 {
+    color: blue;
     text-align: center;
     width: 70%;
     margin-bottom: 10px;
@@ -144,6 +145,7 @@ p1, p2 {
 }
 
 h3 {
+    color: blue;
     text-align: center;
     width: 70%;
     margin-bottom: 10px;
