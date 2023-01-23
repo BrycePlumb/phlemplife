@@ -66,6 +66,7 @@ nav a:hover {
 
 .welcome {
     display: flex;
+     color: blue;
     background-color: white;
     flex-wrap: wrap;
     justify-content: center;
