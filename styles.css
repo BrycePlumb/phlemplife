@@ -83,8 +83,6 @@ h1, p {
 section {
     display: flex;
     align-items: center;
-    background-color: white;
-    padding: 20px;
 }
 
 .first-image {
@@ -102,12 +100,13 @@ section {
 }
 
 h2, p {
-    text-align: center;
+    text-align: left;
     width: 40%;
     padding: 10px;
     margin: 0;
     order: 2;
 }
+
 
 
 
