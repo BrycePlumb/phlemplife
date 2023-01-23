@@ -119,8 +119,8 @@ section {
 .third-image {
     width: 40%;
     height: auto;
-    align-self: flex-end;
-    order: 2;
+    align-self: flex-start;
+    order: 1;
 }
 
 .fourth-image {
@@ -131,11 +131,11 @@ section {
 }
 
 h2, p {
-    text-align: center;
+    text-align: left;
     width: 40%;
     padding: 10px;
     margin: 0;
-    order: 1;
+    order: 2;
 }
 
 
