@@ -71,25 +71,26 @@ nav a:hover {
 
 
 
-/* Product Styles */
-.product-container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.product {
-    width: 30%; /* adjust the width */
-}
-
-
-.product img {
-  height: 75px;
-}
 
 /* Section Styles */
 section {
-  padding: 1rem;
+    display: flex;
+    align-items: center;
+    background-color: #E5E5E5;
+    padding: 20px;
 }
+
+.logo-image {
+    margin-left: auto;
+    width: 50px;
+    height: 50px;
+}
+
+h1, p {
+    text-align: center;
+    padding: 10px;
+}
+
 
 /* Footer Styles */
 footer {
