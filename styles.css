@@ -66,7 +66,6 @@ nav a:hover {
 
 .welcome {
     display: flex;
-     color: blue;
     background-color: white;
     flex-wrap: wrap;
     justify-content: center;
@@ -75,10 +74,17 @@ nav a:hover {
     padding: 20px;
 }
 
+h1 {
+    color: blue;
+    padding: 10px;
+    margin: 0;
+    width: 60%;
+}
+
 p {
     padding: 10px;
     margin: 0;
-    width: 100%;
+    width: 40%;
 }
 
 
