@@ -107,7 +107,7 @@ section {
     margin-bottom: 1em;
 }
 
-#annuities.SPIA p2;{
+#annuities.SPIA p2 {
     font-size: 1.2em;
     color: #3c763d;
     text-align: center;
@@ -117,47 +117,57 @@ section {
 
 /* FIA section styles */
 #annuities.FIA {
-    background-color: #fcf8e3;
+     background-color: #fcf8e3;
+    text-align: center;
 }
 
 #annuities.FIA h1 {
     font-size: 1.5em;
-    color: #8a6d3b;
+    color: blue;
+    margin-bottom: 1em;
 }
 
-#annuities.FIA p2,
-    font-size: 1.2em;
-    color: #8a6d3b;
-}
 
 #annuities.FIA .bar-image {
     width: 100px; /* adjust as needed */
     height: 20px; /* adjust as needed */
     margin: 0 auto;
     display: block;
+    margin-bottom: 1em;
+}
+
+#annuities.FIA p2,
+    font-size: 1.2em;
+    color: #3c763d;
+    text-align: center;
+    margin-top: 0;
 }
 
 /* MYGA section styles */
-#annuities.MYGA {
-    background-color: #f2dede;
-}
+  background-color: #fcf8e3;
+  text-align: center;
 
 #annuities.MYGA h1 {
-    font-size: 1.5em;
-    color: #a94442;
-}
-
-#annuities.MYGA p2, #annuities.MYGA p3,
-    font-size: 1.2em;
-    color: #a94442;
+  font-size: 1.5em;
+    color: blue;
+    margin-bottom: 1em;
 }
 
 #annuities.MYGA .bar-image {
-    width: 100px; /* adjust as needed */
+     width: 100px; /* adjust as needed */
     height: 20px; /* adjust as needed */
     margin: 0 auto;
     display: block;
+    margin-bottom: 1em;
 }
+
+#annuities.MYGA p2 {
+    font-size: 1.2em;
+    color: #3c763d;
+    text-align: center;
+    margin-top: 0;
+}
+
 
 
 
