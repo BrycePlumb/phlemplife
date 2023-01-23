@@ -79,6 +79,34 @@ h1, p {
 }
 
 
+section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.first-image {
+    width: 20%;
+    height: auto;
+    padding-right: 10px;
+}
+
+.second-image {
+    width: 20%;
+    height: auto;
+    align-self: flex-start;
+    padding-top: 10px;
+}
+
+h2, p {
+    text-align: center;
+    width: 60%;
+    padding: 10px;
+    margin: 0;
+}
+
+
+
 
 
 /* Footer Styles */
