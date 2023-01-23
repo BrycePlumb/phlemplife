@@ -62,22 +62,30 @@ nav a:hover {
 
 
 
-/* Annuities section */
-#annuities {
-  padding: 20px;
+section {
+    width: 80%; /* adjust as needed */
+    margin: 1em auto;
+    text-align: center;
 }
-#annuities h1 {
-  font-size: 2em;
-  margin-bottom: 20px;
+
+#annuities.welcome h1, #annuities.options h2, #annuities.schedule h2 {
+    margin: 0;
 }
-#annuities h2 {
-  font-size: 1.5em;
-  margin-bottom: 10px;
+
+#annuities.welcome p1, #annuities.options p2, #annuities.options p3, #annuities.options p4, #annuities.schedule p5 {
+    margin: 0;
 }
-#annuities p, #annuities li {
-  font-size: 1.2em;
-  line-height: 1.5;
+
+#annuities.options .logo-image {
+    margin: 0 auto;
+    display: block;
 }
+
+#annuities.options button, #annuities.schedule button {
+    margin: 1em auto;
+    display: block;
+}
+
 
 /* Media Queries for responsive design /
 @media (max-width: 600px) {
@@ -91,17 +99,3 @@ display: block;
 margin: 10px 0;
 }
 
-/* Annuities section */
-#annuities {
-padding: 10px;
-}
-#annuities h1 {
-font-size: 1.5em;
-}
-#annuities h2 {
-font-size: 1.2em;
-}
-#annuities p, #annuities li {
-font-size: 1em;
-}
-}
