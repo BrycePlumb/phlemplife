@@ -110,10 +110,16 @@ p1, p2 {
     margin-bottom: 10px;
 }
 
-.button {
-    width: 40%;
-    margin: 0 auto;
+.annuities .button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 20px auto;
 }
+
 
 
 
@@ -147,9 +153,14 @@ p3, p4 {
     margin-bottom: 10px;
 }
 
-.button1 {
-    width: 40%;
-    margin: 0 auto;
+.button .button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 20px auto;
 }
 
 
