@@ -129,6 +129,26 @@ margin: 0 auto; / center the image */
 }
 
 
+#annuities.MYGA {
+    text-align: center;
+    background-color: white;
+}
+
+#annuities.MYGA h1 {
+    color: #0352A9;
+    text-align: center;
+}
+
+#annuities.MYGA img {
+    margin: 0 auto; /* center the image */
+    display: block;
+}
+
+#annuities.MYGA h2 {
+    text-align: center;
+}
+
+
 #annuities.schedule {
   text-align: center;
 }
