@@ -162,9 +162,9 @@ nav a:hover {
   
   
 #Term {
+text-align: center;
 width: 80%;
 margin: 0 auto;
-text-align: center;
 }
 
 #Term h1 {
@@ -179,44 +179,44 @@ margin: 0 auto;
 display: block;
 }
 
-#Whole Life {
+#WholeLife {
+text-align: center;
 width: 80%;
 margin: 0 auto;
-text-align: center;
 }
 
-#Whole Life h1 {
+#WholeLife h1 {
 color: #0352A9;
 text-align: center;
 }
 
-#Whole Life .wl-image {
+#WholeLife .wl-image {
 width: 50%;
 height: auto;
 margin: 0 auto;
 display: block;
 }
 
-#Indexed Universal Life {
+#IndexedUniversalLife {
+text-align: center;
 width: 80%;
 margin: 0 auto;
-text-align: center;
 }
 
-#Indexed Universal Life h1 {
+#IndexedUniversalLife h1 {
 color: #0352A9;
 text-align: center;
 }
 
-#Indexed Universal Life .iul-image {
+#IndexedUniversalLife .iul-image {
 width: 50%;
 height: auto;
 margin: 0 auto;
 display: block;
 }
-  
-  
-  #consultation {
+
+#consultation {
+text-align: center;
 width: 80%;
 margin: 0 auto;
 }
