@@ -87,7 +87,7 @@ display: block;
 
 #business h1 {
 font-size: 1.2em;
-color: #3c763d;
+color: black;
 text-align: center;
 margin-top: 0;
 margin-bottom: 1em;
@@ -106,7 +106,7 @@ display: block;
 
 #medical h1 {
 font-size: 1.2em;
-color: #3c763d;
+color: black;
 text-align: center;
 margin-top: 0;
 margin-bottom: 1em;
@@ -125,7 +125,7 @@ display: block;
 
 #planning h1 {
 font-size: 1.2em;
-color: #3c763d;
+color: black;
 text-align: center;
 margin-top: 0;
 margin-bottom: 1em;
