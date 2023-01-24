@@ -64,12 +64,12 @@ width: 20%; /* adjust as needed /
 height: auto;
 margin: 0 auto; / center the image */
 display: block;
-  text-align: center;
+text-align: center;
 }
 
 #personal h1 {
 font-size: 1.2em;
-color: #3c763d;
+color: black;
 text-align: center;
 margin-top: 0;
 margin-bottom: 1em;
@@ -84,7 +84,61 @@ width: 20%; /* adjust as needed /
 height: auto;
 margin: 0 auto; / center the image */
 display: block;
-  text-align: center;
+text-align: center;
+}
+
+#business p2 {
+font-size: 1.2em;
+color: black;
+text-align: center;
+margin-top: 0;
+margin-bottom: 1em;
+}
+
+#medical {
+text-align: center;
+}
+
+#medical .face3-image {
+width: 20%; /* adjust as needed /
+height: auto;
+margin: 0 auto; / center the image */
+display: block;
+text-align: center;
+}
+
+#medical p3 {
+font-size: 1.2em;
+color: black;
+text-align: center;
+margin-top: 0;
+margin-bottom: 1em;
+}
+
+#planning {
+text-align: center;
+}
+
+#planning .face4-image {
+width: 20%; /* adjust as needed /
+height: auto;
+margin: 0 auto; / center the image */
+display: block;
+text-align: center;
+}
+
+#planning p4 {
+font-size: 1.2em;
+color: black;
+text-align: center;
+margin-top: 0;
+margin-bottom: 1em;
+}
+
+
+
+
+
 }
 
 #business h1 {
