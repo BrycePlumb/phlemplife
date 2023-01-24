@@ -65,32 +65,55 @@ nav a:hover {
 
 
 #annuities.SPIA {
-    text-align: center;
-    background-color: white;
+text-align: center;
+background-color: white;
 }
 
 #annuities.SPIA h1 {
-    color: #0352A9;
-    text-align: center;
-}
-
-#annuities.SPIA h2 {
-    text-align: center;
+color: #0352A9;
+text-align: center;
 }
 
 #annuities.SPIA .bar-image {
-   width: 50%; /* adjust as needed /
+width: 50%; /* adjust as needed /
 height: auto;
 display: block;
 margin: 0 auto; / center the image */
 }
 
+#annuities.SPIA h2 {
+text-align: center;
+}
 
 .SPIA-image {
 display: block;
 margin: 0 auto; /* center the image /
 width: 50%; / adjust as needed */
 height: auto;
+}
+
+
+
+
+#annuities.FIA {
+text-align: center;
+background-color: white;
+}
+
+#annuities.FIA h1 {
+color: #0352A9;
+text-align: center;
+}
+
+#annuities.FIA h2 {
+text-align: center;
+}
+
+#annuities.FIA .bar-image {
+width: 50%; /* adjust as needed /
+height: auto;
+display: block;
+margin: 0 auto; / center the image */
 }
 
 
