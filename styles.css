@@ -113,6 +113,15 @@ width: 40%;
 margin-bottom: 10px;
 }
 
+.annuities .button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 20px auto;
+}
 
 
 
