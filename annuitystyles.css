@@ -100,15 +100,13 @@ section h2 {
 
 .SPIA-image {
       width: 100%;
-    max-width:100%;
-    max-height:300px; /* set the max-height to 300px */
+      height: auto;
     display: block;
     margin: 0 auto; /* center the image */
 }
 
 .FIA-image {
     width: 100%;
-    max-height:300px; /* set the max-height to 300px */
     height: auto;
     display: block;
     margin: 0 auto; /* center the image */
@@ -117,7 +115,7 @@ section h2 {
 .MYGA-image {
     width: 100%;
     max-width:100%;
-    max-height:300px; /* set the max-height to 300px */
+      height: auto;
     display: block;
     margin: 0 auto; /* center the image */
 }
