@@ -186,7 +186,7 @@ nav a:hover {
 
 #Term h1 {
     font-size: 1.2em;
-    color: 0352A9;
+    color: #0352A9;
     text-align: center;
     margin-top: 0;
     margin-bottom: 1em;
@@ -205,22 +205,22 @@ nav a:hover {
   
   
 
-#Whole Life {
+#WholeLife {
 background-color: #F8F9F9;
 text-align: center;
 width: 80%;
 margin: 0 auto;
 }
 
-#Whole Life h1 {
+#WholeLife h1 {
     font-size: 1.2em;
-    color: 0352A9;
+    color: #0352A9;
     text-align: center;
     margin-top: 0;
     margin-bottom: 1em;
 }
 
-#Whole Life .wl-image {
+#WholeLife .wl-image {
     width: 75%; /* adjust as needed */
     height: auto;
     margin: 0 auto;
@@ -231,22 +231,22 @@ margin: 0 auto;
   
   
   
-#Indexed Universal Life {
+#IndexedUniversalLife {
 background-color: white;
 text-align: center;
 width: 80%;
 margin: 0 auto;
 }
 
-#Indexed Universal Life h1 {
+#IndexedUniversalLife h1 {
     font-size: 1.2em;
-    color: 0352A9;
+    color: #0352A9;
     text-align: center;
     margin-top: 0;
     margin-bottom: 1em;
 }
 
-#Indexed Universal Life .iul-image {
+#IndexedUniversalLife .iul-image {
     width: 75%; /* adjust as needed */
     height: auto;
     margin: 0 auto;
