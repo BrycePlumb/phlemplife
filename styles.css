@@ -82,41 +82,44 @@ p {
 
 
 .annuities {
-color: white;
-display: flex;
-flex-direction: column;
-align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .first-image {
-width: 55%;
-height: auto;
-margin-bottom: 10px;
+    width: 55%;
+    height: auto;
+    margin-bottom: 10px;
 }
 
 .second-image {
-width: 20%;
-height: auto;
-margin-bottom: 10px;
+    width: 20%;
+    height: auto;
+    margin-bottom: 10px;
 }
 
-h2 {
-color: #0352A9;
-text-align: center;
-width: 70%;
-margin-bottom: 10px;
+h1, h2 {
+    color: #0352A9;
+    text-align: center;
+    width: 70%;
+    margin-bottom: 10px;
 }
 
-p1, p2 {
-text-align: center;
-width: 70%;
-margin-bottom: 10px;
+p1, p2, p3{
+    text-align: center;
+    width: 40%;
+    margin-bottom: 10px;
 }
 
-a.button {
-text-align: center;
-margin-top: 10px;
-}: 20px auto;
+.annuities a{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+}
 
 
 
