@@ -52,222 +52,192 @@ nav a:hover {
     background-size: cover; /* to make the background image cover the entire hero-banner */
     background-position: center; /* to center the background image */
 
+  
+  
+  
+  
+  
+  
+}
+#life-insurance {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
 }
 
+#life-insurance h1 {
+    font-size: 1.2em;
+    color: black;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
 
 #personal {
-text-align: center;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
 }
 
 #personal .face1-image {
-width: 20%; /* adjust as needed /
-height: auto;
-margin: 0 auto; / center the image */
-display: block;
-text-align: center;
+    width: 20%; /* adjust as needed */
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
 }
 
 #personal h1 {
-font-size: 1.2em;
-color: black;
-text-align: center;
-margin-top: 0;
-margin-bottom: 1em;
+    font-size: 1.2em;
+    color: black;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1em;
 }
 
 #business {
-text-align: center;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
 }
 
 #business .face2-image {
-width: 20%; /* adjust as needed /
-height: auto;
-margin: 0 auto; / center the image */
-display: block;
-text-align: center;
-}
-
-#business p2 {
-font-size: 1.2em;
-color: black;
-text-align: center;
-margin-top: 0;
-margin-bottom: 1em;
-}
-
-#medical {
-text-align: center;
-}
-
-#medical .face3-image {
-width: 20%; /* adjust as needed /
-height: auto;
-margin: 0 auto; / center the image */
-display: block;
-text-align: center;
-}
-
-#medical p3 {
-font-size: 1.2em;
-color: black;
-text-align: center;
-margin-top: 0;
-margin-bottom: 1em;
-}
-
-#planning {
-text-align: center;
-}
-
-#planning .face4-image {
-width: 20%; /* adjust as needed /
-height: auto;
-margin: 0 auto; / center the image */
-display: block;
-text-align: center;
-}
-
-#planning p4 {
-font-size: 1.2em;
-color: black;
-text-align: center;
-margin-top: 0;
-margin-bottom: 1em;
-}
-
-
-
-
-
+    width: 20%; /* adjust as needed */
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
 }
 
 #business h1 {
-font-size: 1.2em;
-color: black;
-text-align: center;
-margin-top: 0;
-margin-bottom: 1em;
+    font-size: 1.2em;
+    color: black;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1em;
 }
 
 #medical {
-text-align: center;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
 }
 
 #medical .face3-image {
-width: 20%; /* adjust as needed /
-height: auto;
-margin: 0 auto; / center the image */
-display: block;
-  text-align: center;
+    width: 20%; /* adjust as needed */
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
 }
 
 #medical h1 {
-font-size: 1.2em;
-color: black;
-text-align: center;
-margin-top: 0;
-margin-bottom: 1em;
+    font-size: 1.2em;
+    color: black;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1em;
 }
 
 #planning {
-text-align: center;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
 }
 
 #planning .face4-image {
-width: 20%; /* adjust as needed /
-height: auto;
-margin: 0 auto; / center the image */
-display: block;
-  text-align: center;
-}
+    width: 20%; /* adjust as needed */
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
 
-#planning h1 {
-font-size: 1.2em;
-color: black;
-text-align: center;
-margin-top: 0;
-margin-bottom: 1em;
-}
 
-  
+
+
+
+
+
   
   
   
 /* Term section styles /
 #Term {
 text-align: center;
-width: 80%; / adjust as needed /
-margin: 0 auto; / center the section */
 }
 
 #Term h1 {
-font-size: 1.5em;
-color: #0352A9;
+font-size: 1.2em;
+color: black;
+text-align: center;
+margin-top: 0;
 margin-bottom: 1em;
-text-align:center;
 }
 
 #Term h2 {
+text-align: center;
+}
+
+#Term .term-image {
+width: 20%;
+height: auto;
+margin: 0 auto;
+display: block;
+text-align: center;
+}
+
+#Whole Life {
+text-align: center;
+}
+
+#Whole Life h1 {
 font-size: 1.2em;
+color: black;
 text-align: center;
 margin-top: 0;
 margin-bottom: 1em;
 }
 
-.term-image {
-width: 50%; /* adjust as needed /
-height: auto;
-margin: 0 auto; / center the image */
-display: block;
-}
-
-/* Whole Life section styles /
-#WholeLife {
+#Whole Life h2 {
 text-align: center;
-width: 80%; / adjust as needed /
-margin: 0 auto; / center the section */
 }
 
-#WholeLife h1 {
-font-size: 1.5em;
-color: #0352A9;
-margin-bottom: 1em;
-text-align:center;
-}
-
-#WholeLife h2 {
-font-size: 1.2em;
-text-align: center;
-margin-top: 0;
-margin-bottom: 1em;
-}
-
-.wl-image {
-width: 50%; /* adjust as needed /
+#Whole Life .wl-image {
+width: 20%;
 height: auto;
-margin: 0 auto; / center the image */
+margin: 0 auto;
 display: block;
+text-align: center;
 }
-  
+
+#Indexed Universal Life {
+text-align: center;
+}
+
 #Indexed Universal Life h1 {
-font-size: 1.5em;
-color: #0352A9;
+font-size: 1.2em;
+color: black;
+text-align: center;
+margin-top: 0;
 margin-bottom: 1em;
-text-align:center;
 }
 
 #Indexed Universal Life h2 {
-font-size: 1.2em;
 text-align: center;
-margin-top: 0;
-margin-bottom: 1em;
 }
 
-.iul-image {
-width: 50%; /* adjust as needed /
+#Indexed Universal Life .iul-image {
+width: 20%;
 height: auto;
-margin: 0 auto; / center the image */
+margin: 0 auto;
 display: block;
+text-align: center;
+}
+
+#Indexed Universal Life button {
+display: block;
+margin: 0 auto;
+text-align: center;
 }
 
 /* Footer */
