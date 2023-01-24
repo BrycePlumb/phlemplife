@@ -97,6 +97,24 @@ section p {
     margin-bottom: 1em;
 }
 
+#annuities.SPIA .SPIA-image {
+    width: 100%;
+    max-width:100%;
+    display: block;
+}
+
+#annuities.FIA .FIA-image {
+    width: 100%;
+    max-width:100%;
+    display: block;
+}
+
+#annuities.MYGA .MYGA-image {
+    width: 100%;
+    max-width:100%;
+    display: block;
+}
+
 section button {
     margin: 0 auto;
     display: block;
