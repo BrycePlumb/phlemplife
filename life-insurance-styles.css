@@ -161,83 +161,88 @@ nav a:hover {
   
   
   
-/* Term section styles /
 #Term {
+width: 80%;
+margin: 0 auto;
 text-align: center;
 }
 
 #Term h1 {
-font-size: 1.2em;
-color: black;
-text-align: center;
-margin-top: 0;
-margin-bottom: 1em;
-}
-
-#Term h2 {
+color: #0352A9;
 text-align: center;
 }
 
 #Term .term-image {
-width: 20%;
+width: 50%;
 height: auto;
 margin: 0 auto;
 display: block;
-text-align: center;
 }
 
 #Whole Life {
+width: 80%;
+margin: 0 auto;
 text-align: center;
 }
 
 #Whole Life h1 {
-font-size: 1.2em;
-color: black;
-text-align: center;
-margin-top: 0;
-margin-bottom: 1em;
-}
-
-#Whole Life h2 {
+color: #0352A9;
 text-align: center;
 }
 
 #Whole Life .wl-image {
-width: 20%;
+width: 50%;
 height: auto;
 margin: 0 auto;
 display: block;
-text-align: center;
 }
 
 #Indexed Universal Life {
+width: 80%;
+margin: 0 auto;
 text-align: center;
 }
 
 #Indexed Universal Life h1 {
-font-size: 1.2em;
-color: black;
-text-align: center;
-margin-top: 0;
-margin-bottom: 1em;
-}
-
-#Indexed Universal Life h2 {
+color: #0352A9;
 text-align: center;
 }
 
 #Indexed Universal Life .iul-image {
-width: 20%;
+width: 50%;
 height: auto;
+margin: 0 auto;
+display: block;
+}
+  
+  
+  #consultation {
+width: 80%;
+margin: 0 auto;
+}
+
+#consultation h1 {
+color: #0352A9;
+text-align: center;
+}
+
+#consultation h2 {
+text-align: center;
+}
+
+#consultation button {
+background-color: green;
+color: white;
+border: none;
+padding: 10px 20px;
 margin: 0 auto;
 display: block;
 text-align: center;
 }
 
-#Indexed Universal Life button {
-display: block;
-margin: 0 auto;
-text-align: center;
+#consultation button:hover {
+background-color: darkgreen;
+cursor: pointer;
 }
 
 /* Footer */
