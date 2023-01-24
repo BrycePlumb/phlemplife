@@ -73,8 +73,12 @@ section h1 {
     color: blue;
     margin-bottom: 1em;
     text-align:center;
-    border-bottom: solid 2px blue;
 }
+
+/* remove the border-bottom property */
+/* section h1 {
+    border-bottom: solid 2px blue;
+} */
 
 section img {
     width: 100px; /* adjust as needed */
