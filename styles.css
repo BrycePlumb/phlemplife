@@ -107,14 +107,12 @@ width: 40%;
 margin-bottom: 10px;
 }
 
-.annuities .button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    margin: 20px auto;
+#annuities-link {
+  background-color: green; /* sets the background color to green */
+  color: white; /* sets the text color to white */
+  border-radius: 10px; /* sets rounded corners */
+  padding: 10px 20px; /* adds padding to the button */
+  text-decoration: none; /* remove underline from the link */
 }
 
 
