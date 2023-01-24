@@ -192,7 +192,8 @@ margin-bottom: 1em;
 width: 50%; /* adjust as needed /
 height: auto;
 margin: 0 auto; / center the image */
-  
+display: block;
+}
   
 #Indexed Universal Life h1 {
 font-size: 1.5em;
@@ -212,6 +213,8 @@ margin-bottom: 1em;
 width: 50%; /* adjust as needed /
 height: auto;
 margin: 0 auto; / center the image */
+display: block;
+}
 
 /* Footer */
 footer {
