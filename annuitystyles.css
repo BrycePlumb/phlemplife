@@ -79,18 +79,54 @@ nav a:hover {
 }
 
 #annuities.SPIA .bar-image {
-    display: block;
-    margin: 0 auto; /* center the image */
-}
-
-#annuities.SPIA .SPIA-image {
-    display: block;
-    margin: 0 auto; /* center the image */
+   width: 50%; /* adjust as needed /
+height: auto;
+display: block;
+margin: 0 auto; / center the image */
 }
 
 
+.SPIA-image {
+display: block;
+margin: 0 auto; /* center the image /
+width: 50%; / adjust as needed */
+height: auto;
+}
 
 
+
+
+#annuities.FIA {
+text-align: center;
+background-color: white;
+}
+
+#annuities.FIA h1 {
+   color: #0352A9;
+    text-align: center;
+}
+#annuities.FIA img {
+display: block;
+margin: 0 auto;
+}
+
+#annuities.FIA h2 {
+text-align: center;
+}
+
+.FIA-image {
+display: block;
+margin: 0 auto; /* center the image /
+width: 50%; / adjust as needed */
+height: auto;
+}
+
+.bar-image {
+width: 50%; /* adjust as needed /
+height: auto;
+display: block;
+margin: 0 auto; / center the image */
+}
 
 
 #annuities.schedule {
