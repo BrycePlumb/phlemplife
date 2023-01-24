@@ -1,5 +1,6 @@
 /* Basic styling */
 body {
+  width: 100%;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -97,22 +98,28 @@ section p {
     margin-bottom: 1em;
 }
 
-#annuities.SPIA .SPIA-image {
-    width: 100%;
+.SPIA-image {
+      width: 100%;
     max-width:100%;
+    height: auto;
     display: block;
+    margin: 0 auto; /* center the image */
 }
 
-#annuities.FIA .FIA-image {
+.FIA-image {
     width: 100%;
     max-width:100%;
+    height: auto;
     display: block;
+    margin: 0 auto; /* center the image */
 }
 
-#annuities.MYGA .MYGA-image {
+.MYGA-image {
     width: 100%;
     max-width:100%;
+    height: auto;
     display: block;
+    margin: 0 auto; /* center the image */
 }
 
 section button {
