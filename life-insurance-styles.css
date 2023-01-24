@@ -64,6 +64,7 @@ width: 20%; /* adjust as needed /
 height: auto;
 margin: 0 auto; / center the image */
 display: block;
+  text-align: center;
 }
 
 #personal h1 {
@@ -83,6 +84,7 @@ width: 20%; /* adjust as needed /
 height: auto;
 margin: 0 auto; / center the image */
 display: block;
+  text-align: center;
 }
 
 #business h1 {
@@ -102,6 +104,7 @@ width: 20%; /* adjust as needed /
 height: auto;
 margin: 0 auto; / center the image */
 display: block;
+  text-align: center;
 }
 
 #medical h1 {
@@ -121,6 +124,7 @@ width: 20%; /* adjust as needed /
 height: auto;
 margin: 0 auto; / center the image */
 display: block;
+  text-align: center;
 }
 
 #planning h1 {
