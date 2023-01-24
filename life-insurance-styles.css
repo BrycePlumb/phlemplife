@@ -60,6 +60,7 @@ nav a:hover {
   
 }
 #life-insurance {
+  background-color: #F8F9F9;
     text-align: center;
     width: 80%;
     margin: 0 auto;
@@ -74,6 +75,7 @@ nav a:hover {
 }
 
 #personal {
+  background-color: white;
     text-align: center;
     width: 80%;
     margin: 0 auto;
@@ -96,6 +98,7 @@ nav a:hover {
 }
 
 #business {
+  background-color: #F8F9F9;
     text-align: center;
     width: 80%;
     margin: 0 auto;
@@ -118,6 +121,7 @@ nav a:hover {
 }
 
 #medical {
+  background-color: white;
     text-align: center;
     width: 80%;
     margin: 0 auto;
@@ -140,6 +144,7 @@ nav a:hover {
 }
 
 #planning {
+  background-color: #F8F9F9;
     text-align: center;
     width: 80%;
     margin: 0 auto;
@@ -162,6 +167,7 @@ nav a:hover {
   
   
 #Term {
+  background-color: white;
 text-align: center;
 width: 80%;
 margin: 0 auto;
@@ -186,6 +192,7 @@ margin: 0 auto;
   
 
 #Whole Life {
+background-color: #F8F9F9;
 text-align: center;
 width: 80%;
 margin: 0 auto;
@@ -207,6 +214,7 @@ display: block;
   
   
 #Indexed Universal Life {
+background-color: white;
 text-align: center;
 width: 80%;
 margin: 0 auto;
@@ -230,6 +238,7 @@ display: block;
   
   
 #consultation {
+background-color: #F8F9F9;
 text-align: center;
 width: 80%;
 margin: 0 auto;
