@@ -81,38 +81,36 @@ p {
 }
 
 
-#annuities {
-    text-align: center;
-    background-color: white;
+#annuities-section {
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
-#annuities h1, #annuities h2 {
-    color: #0352A9;
-    text-align: center;
+#first-image {
+width: 55%;
+height: auto;
+margin-bottom: 10px;
 }
 
-#annuities img {
-    width: 50%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 10px;
+#second-image {
+width: 20%;
+height: auto;
+margin-bottom: 10px;
 }
 
-#annuities p {
-    text-align: center;
-    width: 40%;
-    margin-bottom: 10px;
+#annuities-description {
+color: blue;
+text-align: center;
+width: 70%;
+margin-bottom: 10px;
 }
 
-#annuities a {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    text-align: center;
-    display: block;
-    margin: 0 auto;
+#annuities-statistic, #annuities-protection {
+text-align: center;
+width: 40%;
+margin-bottom: 10px;
 }
 
 
