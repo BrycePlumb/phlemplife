@@ -63,8 +63,6 @@ nav a:hover {
 
 
 
-}
-
 /* SPIA section styles */
 section {
     text-align: center;
@@ -74,6 +72,8 @@ section h1 {
     font-size: 1.5em;
     color: blue;
     margin-bottom: 1em;
+    text-align:center;
+    border-bottom: solid 2px blue;
 }
 
 section img {
@@ -82,6 +82,7 @@ section img {
     margin: 0 auto;
     display: block;
     margin-bottom: 1em;
+    text-align:center;
 }
 
 section p {
@@ -95,44 +96,14 @@ section p {
 section button {
     margin: 0 auto;
     display: block;
-}
-
-
-
-
-
-
-
-
-
-
-/* Schedule section styles */
-#annuities.schedule {
-    background-color: #e9e9e9;
-    padding: 1em;
-    text-align: center;
-}
-
-#annuities.schedule h1 {
-    font-size: 1.5em;
-    color: blue;
-    margin-bottom: 1em;
-}
-
-#annuities.schedule p3 {
-    font-size: 1.2em;
-    color: black;
-    text-align: center;
-    margin: 0;
-}
-
-#annuities.schedule button {
     background-color: green;
-    color: white;
-    padding: 0.5em 1em;
-    border-radius: 10px;
-    margin-top: 1em;
 }
+
+
+
+
+
+
 
 
 
