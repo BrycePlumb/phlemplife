@@ -160,7 +160,7 @@ margin-top: 0;
 margin-bottom: 1em;
 }
 
-#Term .term-image {
+.term-image {
 width: 50%; /* adjust as needed /
 height: auto;
 margin: 0 auto; / center the image */
@@ -188,7 +188,7 @@ margin-top: 0;
 margin-bottom: 1em;
 }
 
-#WholeLife .wl-image {
+.wl-image {
 width: 50%; /* adjust as needed /
 height: auto;
 margin: 0 auto; / center the image */
@@ -208,7 +208,7 @@ margin-top: 0;
 margin-bottom: 1em;
 }
 
-#Indexed Universal Life .iul-image {
+.iul-image {
 width: 50%; /* adjust as needed /
 height: auto;
 margin: 0 auto; / center the image */
