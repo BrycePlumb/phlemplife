@@ -77,10 +77,11 @@ nav a:hover {
   color: #0352A9;
   text-align: center;
   margin-bottom: 10px;
+  width: 100%;
 }
 
 #annuitiesSPIA .bar-image { /* changed to keep the image at its original size */
-  width: 50%;
+  width: 20%;
   height: auto;
   margin: 0 auto;
   display: block;
@@ -90,10 +91,11 @@ nav a:hover {
 #annuitiesSPIA h2 {
   text-align: center;
   margin-bottom: 10px;
+  width: 75%;
 }
 
 #annuitiesSPIA .SPIA-image { /* added to make the image span across the entire screen */
-  width: 100%;
+  width: 80%;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -116,12 +118,13 @@ nav a:hover {
   color: #0352A9;
   text-align: center;
   margin-bottom: 10px;
+  width: 100%;
 }
 
 
 
 #annuitiesFIA .bar-image {
-  width: 50%;
+  width: 20%;
   height: auto;
   margin: 0 auto;
   display: block;
@@ -129,13 +132,14 @@ nav a:hover {
 }
 
 #annuitiesFIA h2 {
+  width: 75%;
   text-align: center;
   margin-bottom: 10px;
 }
 
 
 .FIA-image {
-  width: 100%;
+  width: 80%;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -164,10 +168,11 @@ nav a:hover {
   color: #0352A9;
   text-align: center;
   margin-bottom: 10px;
+  width: 100%;
 }
 
 #annuities.MYGA .bar-image {
-  width: 50%;
+  width: 20%;
   height: auto;
   margin: 0 auto;
   display: block;
@@ -178,10 +183,11 @@ nav a:hover {
 #annuities.MYGA h2 {
   text-align: center;
   margin-bottom: 10px;
+  width: 75%;
 }
 
 .MYGA-image {
-  width: 100%;
+  width: 80%;
   height: auto;
   display: block;
   margin: 0 auto;
