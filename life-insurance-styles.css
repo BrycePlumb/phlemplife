@@ -55,20 +55,31 @@ nav a:hover {
 }
 
 
-section#cases {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+#personal {
+    margin: 0 auto;
+    width: 80%; /* set the width of the section */
+    text-align: center;
+    /* add additional styling properties */
+}
+#business {
+    margin: 0 auto;
+    width: 80%; /* set the width of the section */
+    text-align: center;
+    /* add additional styling properties */
+}
+#medical {
+    margin: 0 auto;
+    width: 80%; /* set the width of the section */
+    text-align: center;
+    /* add additional styling properties */
+}
+#planning {
+    margin: 0 auto;
+    width: 80%; /* set the width of the section */
+    text-align: center;
+    /* add additional styling properties */
 }
 
-  
-}
-
-#cases p {
-    display: inline-block;
-    width: calc(25% - 10px); /*sets width to 25% of parent container and subtracts 10px of margin */
-    margin: 5px; /* adds a 5px margin to each side of the p element */
-}
 
   
   
