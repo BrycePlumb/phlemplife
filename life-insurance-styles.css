@@ -144,11 +144,21 @@ nav a:hover {
 }
 
 #planning {
-  background-color: #F8F9F9;
+  background-color: white;
     text-align: center;
     width: 80%;
     margin: 0 auto;
 }
+
+
+#planning h1 {
+    font-size: 1.2em;
+    color: black;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
 
 #planning .face4-image {
     width: 20%; /* adjust as needed */
