@@ -120,16 +120,40 @@ section h2 {
     margin: 0 auto; /* center the image */
 }
 
-section button {
-  .life-insurance .button {
-    background-color: #4CAF50;
+
+
+#annuities.schedule {
+    text-align: center;
+}
+
+#annuities.schedule h1 {
+    font-size: 1.2em;
+    color: #0352A9;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+#annuities.schedule p3 {
+    text-align: center;
+    font-size: 1em;
+    color: black;
+    margin-bottom: 1em;
+}
+
+#annuities.schedule button {
+    background-color: green;
     color: white;
-    padding: 10px 20px;
+    padding: 0.5em 1em;
+    border-radius: 5px;
     text-align: center;
     text-decoration: none;
-    display: block;
-    margin: 20px auto;
+    display: inline-block;
+    font-size: 1em;
+    margin: 1em 0;
+    cursor: pointer;
 }
+
 
 
 
