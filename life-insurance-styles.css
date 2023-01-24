@@ -74,7 +74,25 @@ section#cases {
   
   
   
-  
+#Term {
+    margin: 0 auto;
+    width: 80%; /* set the width of the section */
+    text-align: center;
+    /* add additional styling properties */
+}
+#WholeLife {
+    margin: 0 auto;
+    width: 80%; /* set the width of the section */
+    text-align: center;
+    /* add additional styling properties */
+}
+#IndexedUniversalLife {
+    margin: 0 auto;
+    width: 80%; /* set the width of the section */
+    text-align: center;
+    /* add additional styling properties */
+}
+
   
   
 
