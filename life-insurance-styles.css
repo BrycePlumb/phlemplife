@@ -139,68 +139,79 @@ margin-bottom: 1em;
   
   
   
+/* Term section styles /
 #Term {
-    margin: 0 auto;
-    width: 80%; /* set the width of the section */
-    text-align: center;
-    /* add additional styling properties */
+text-align: center;
+width: 80%; / adjust as needed /
+margin: 0 auto; / center the section */
 }
 
 #Term h1 {
-  color: blue;
-    text-align: center;
-    font-size:1.5em;
-    /* add additional styling properties */
-}
-#Term p {
-    text-align: center;
-    font-size:1.2em;
-    /* add additional styling properties */
+font-size: 1.5em;
+color: #0352A9;
+margin-bottom: 1em;
+text-align:center;
 }
 
-
-
-#Whole Life {
-    margin: 0 auto;
-    width: 80%; /* set the width of the section */
-    text-align: center;
-    /* add additional styling properties */
+#Term h2 {
+font-size: 1.2em;
+text-align: center;
+margin-top: 0;
+margin-bottom: 1em;
 }
 
-#Whole Life h1 {
-  color: blue;
-    text-align: center;
-    font-size:1.5em;
-    /* add additional styling properties */
-}
-#Whole Life p {
-    text-align: center;
-    font-size:1.2em;
-    /* add additional styling properties */
+#Term .term-image {
+width: 50%; /* adjust as needed /
+height: auto;
+margin: 0 auto; / center the image */
+display: block;
 }
 
-
-#Indexed Universal Life {
-    margin: 0 auto;
-    width: 80%; /* set the width of the section */
-    text-align: center;
-    /* add additional styling properties */
+/* Whole Life section styles /
+#WholeLife {
+text-align: center;
+width: 80%; / adjust as needed /
+margin: 0 auto; / center the section */
 }
 
+#WholeLife h1 {
+font-size: 1.5em;
+color: #0352A9;
+margin-bottom: 1em;
+text-align:center;
+}
+
+#WholeLife h2 {
+font-size: 1.2em;
+text-align: center;
+margin-top: 0;
+margin-bottom: 1em;
+}
+
+#WholeLife .wl-image {
+width: 50%; /* adjust as needed /
+height: auto;
+margin: 0 auto; / center the image */
+  
+  
 #Indexed Universal Life h1 {
-  color: blue;
-    text-align: center;
-    font-size:1.5em;
-    /* add additional styling properties */
+font-size: 1.5em;
+color: #0352A9;
+margin-bottom: 1em;
+text-align:center;
 }
-#Indexed Universal Life p {
-    text-align: center;
-    font-size:1.2em;
-    /* add additional styling properties */
-}
-  
-  
 
+#Indexed Universal Life h2 {
+font-size: 1.2em;
+text-align: center;
+margin-top: 0;
+margin-bottom: 1em;
+}
+
+#Indexed Universal Life .iul-image {
+width: 50%; /* adjust as needed /
+height: auto;
+margin: 0 auto; / center the image */
 
 /* Footer */
 footer {
