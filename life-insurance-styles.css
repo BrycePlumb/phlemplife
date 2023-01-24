@@ -172,6 +172,7 @@ margin: 0 auto;
   width: 80%;
   text-align: center;
 }
+  
 
 #Term .term-image {
   width: 50%; /* adjust as needed */
@@ -180,6 +181,9 @@ margin: 0 auto;
   display: block;
   text-align: center;
 }
+  
+  
+  
 
 #WholeLife {
 text-align: center;
@@ -199,6 +203,9 @@ margin: 0 auto;
 display: block;
 }
 
+  
+  
+  
 #IndexedUniversalLife {
 text-align: center;
 width: 80%;
@@ -217,6 +224,11 @@ margin: 0 auto;
 display: block;
 }
 
+  
+  
+  
+  
+  
 #consultation {
 text-align: center;
 width: 80%;
