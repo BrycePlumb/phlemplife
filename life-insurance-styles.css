@@ -80,12 +80,41 @@ section#cases {
     text-align: center;
     /* add additional styling properties */
 }
+
+#Term h1 {
+  color: blue;
+    text-align: center;
+    font-size:1.5em;
+    /* add additional styling properties */
+}
+#Term p {
+    text-align: center;
+    font-size:1.2em;
+    /* add additional styling properties */
+}
+
+
+
 #WholeLife {
     margin: 0 auto;
     width: 80%; /* set the width of the section */
     text-align: center;
     /* add additional styling properties */
 }
+
+#Wholelife h1 {
+  color: blue;
+    text-align: center;
+    font-size:1.5em;
+    /* add additional styling properties */
+}
+#Wholelife p {
+    text-align: center;
+    font-size:1.2em;
+    /* add additional styling properties */
+}
+
+
 #IndexedUniversalLife {
     margin: 0 auto;
     width: 80%; /* set the width of the section */
@@ -93,6 +122,17 @@ section#cases {
     /* add additional styling properties */
 }
 
+#IndexedUniversalLife h1 {
+  color: blue;
+    text-align: center;
+    font-size:1.5em;
+    /* add additional styling properties */
+}
+#IndexedUniversalLife p {
+    text-align: center;
+    font-size:1.2em;
+    /* add additional styling properties */
+}
   
   
 
