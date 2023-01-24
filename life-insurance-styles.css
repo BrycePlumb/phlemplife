@@ -56,30 +56,80 @@ nav a:hover {
 
 
 #personal {
-    margin: 0 auto;
-    width: 80%; /* set the width of the section */
-    text-align: center;
-    /* add additional styling properties */
-}
-#business {
-    margin: 0 auto;
-    width: 80%; /* set the width of the section */
-    text-align: center;
-    /* add additional styling properties */
-}
-#medical {
-    margin: 0 auto;
-    width: 80%; /* set the width of the section */
-    text-align: center;
-    /* add additional styling properties */
-}
-#planning {
-    margin: 0 auto;
-    width: 80%; /* set the width of the section */
-    text-align: center;
-    /* add additional styling properties */
+text-align: center;
 }
 
+#personal .face1-image {
+width: 20%; /* adjust as needed /
+height: auto;
+margin: 0 auto; / center the image */
+display: block;
+}
+
+#personal p1 {
+font-size: 1.2em;
+color: #3c763d;
+text-align: center;
+margin-top: 0;
+margin-bottom: 1em;
+}
+
+#business {
+text-align: center;
+}
+
+#business .face2-image {
+width: 20%; /* adjust as needed /
+height: auto;
+margin: 0 auto; / center the image */
+display: block;
+}
+
+#business p2 {
+font-size: 1.2em;
+color: #3c763d;
+text-align: center;
+margin-top: 0;
+margin-bottom: 1em;
+}
+
+#medical {
+text-align: center;
+}
+
+#medical .face3-image {
+width: 20%; /* adjust as needed /
+height: auto;
+margin: 0 auto; / center the image */
+display: block;
+}
+
+#medical p3 {
+font-size: 1.2em;
+color: #3c763d;
+text-align: center;
+margin-top: 0;
+margin-bottom: 1em;
+}
+
+#planning {
+text-align: center;
+}
+
+#planning .face4-image {
+width: 20%; /* adjust as needed /
+height: auto;
+margin: 0 auto; / center the image */
+display: block;
+}
+
+#planning p4 {
+font-size: 1.2em;
+color: #3c763d;
+text-align: center;
+margin-top: 0;
+margin-bottom: 1em;
+}
 
   
   
