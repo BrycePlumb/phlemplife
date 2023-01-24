@@ -62,44 +62,21 @@ nav a:hover {
 
 
 
-/* Default section styles */
-section {
-    width: 80%; /* adjust as needed */
-    margin: 1em auto;
-    text-align: center;
-    padding: 1em;
-    background-color: #f5f5f5;
-    border-radius: 10px;
-}
 
-/* Welcome section styles */
-#annuities.welcome {
-    background-color: white;
-}
-
-#annuities.welcome h1 {
-    font-size: 2em;
-    color: blue;
-}
-
-#annuities.welcome p1 {
-    font-size: 1.2em;
-    color: #31708f;
 }
 
 /* SPIA section styles */
-#annuities.SPIA {
-    background-color: #fcf8e3;
+section {
     text-align: center;
 }
 
-#annuities.SPIA h1 {
+section h1 {
     font-size: 1.5em;
     color: blue;
     margin-bottom: 1em;
 }
 
-#annuities.SPIA .bar-image {
+section img {
     width: 100px; /* adjust as needed */
     height: 20px; /* adjust as needed */
     margin: 0 auto;
@@ -107,66 +84,19 @@ section {
     margin-bottom: 1em;
 }
 
-#annuities.SPIA p2 {
+section p {
     font-size: 1.2em;
     color: #3c763d;
     text-align: center;
     margin-top: 0;
-}
-
-
-/* FIA section styles */
-#annuities.FIA {
-     background-color: #fcf8e3;
-    text-align: center;
-}
-
-#annuities.FIA h1 {
-    font-size: 1.5em;
-    color: blue;
     margin-bottom: 1em;
 }
 
-
-#annuities.FIA .bar-image {
-    width: 100px; /* adjust as needed */
-    height: 20px; /* adjust as needed */
+section button {
     margin: 0 auto;
     display: block;
-    margin-bottom: 1em;
 }
 
-#annuities.FIA p2,
-    font-size: 1.2em;
-    color: #3c763d;
-    text-align: center;
-    margin-top: 0;
-}
-
-/* MYGA section styles */
-  background-color: #fcf8e3;
-  text-align: center;
-
-#annuities.MYGA h1 {
-  font-size: 1.5em;
-    color: blue;
-    margin-bottom: 1em;
-}
-
-#annuities.MYGA .bar-image {
-     width: 100px; /* adjust as needed */
-    height: 20px; /* adjust as needed */
-    margin: 0 auto;
-    display: block;
-    margin-bottom: 1em;
-}
-
-#annuities.MYGA p2 {
-    font-size: 1.2em;
-    color: #3c763d;
-    text-align: center;
-    margin-top: 0;
-}
 
 
 
