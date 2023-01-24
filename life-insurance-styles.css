@@ -52,8 +52,18 @@ nav a:hover {
     background-size: cover; /* to make the background image cover the entire hero-banner */
     background-position: center; /* to center the background image */
 
+}
+
+
+section#cases {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
   
-  
+}
+
 #cases p {
     display: inline-block;
     width: calc(25% - 10px); /*sets width to 25% of parent container and subtracts 10px of margin */
