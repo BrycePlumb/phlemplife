@@ -168,15 +168,17 @@ margin: 0 auto;
 }
 
 #Term h1 {
-color: #0352A9;
-text-align: center;
+  color: #0352A9;
+  width: 80%;
+  text-align: center;
 }
 
 #Term .term-image {
-width: 50%;
-height: auto;
-margin: 0 auto;
-display: block;
+  width: 50%; /* adjust as needed */
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
 }
 
 #WholeLife {
