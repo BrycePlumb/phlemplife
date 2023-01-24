@@ -196,18 +196,32 @@ nav a:hover {
 
 
 
-
 #annuities.schedule {
   text-align: center;
+  background-color: #F8F9F9; /* adds background color */
+  padding: 20px; /* adds padding */
 }
 
 #annuities.schedule h1 {
   color: #0352A9;
+  font-size: 2em; /* increases font size */
+  margin-bottom: 10px; /* adds margin */
 }
 
 #schedule-button {
   background-color: green;
+  color: white; /* sets text color to white */
+  border-radius: 10px; /* sets rounded corners */
+  padding: 10px 20px; /* adds padding */
+  text-decoration: none; /* remove underline */
+  font-weight: bold; /* makes text bold */
+  transition: background-color 0.2s ease-in; /* adds transition effect */
 }
+
+#schedule-button:hover {
+  background-color: darkgreen; /* changes background color on hover */
+}
+
 
 
 
