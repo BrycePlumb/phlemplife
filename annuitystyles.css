@@ -155,7 +155,7 @@ nav a:hover {
 
 
 
-#annuities.MYGA {
+#annuitiesMYGA {
   text-align: center;
   background-color: #F8F9F9;
   display: flex;
@@ -164,14 +164,14 @@ nav a:hover {
   width: 100%;
 }
 
-#annuities.MYGA h1 {
+#annuitiesMYGA h1 {
   color: #0352A9;
   text-align: center;
   margin-bottom: 10px;
   width: 100%;
 }
 
-#annuities.MYGA .bar-image {
+#annuitiesMYGA .bar-image {
   width: 20%;
   height: auto;
   margin: 0 auto;
@@ -180,7 +180,7 @@ nav a:hover {
 }
 
 
-#annuities.MYGA h2 {
+#annuitiesMYGA h2 {
   text-align: center;
   margin-bottom: 10px;
   width: 75%;
@@ -196,13 +196,13 @@ nav a:hover {
 
 
 
-#annuities.schedule {
+#annuities .schedule {
   text-align: center;
   background-color: #F8F9F9; /* adds background color */
   padding: 20px; /* adds padding */
 }
 
-#annuities.schedule h1 {
+#annuities .schedule h1 {
   color: #0352A9;
   font-size: 2em; /* increases font size */
   margin-bottom: 10px; /* adds margin */
