@@ -284,10 +284,10 @@ margin: 0 auto;
   
   
 #consultation {
-background-color: #F8F9F9;
-text-align: center;
-width: 100%;
-margin: 0 auto;
+  background-color: #F8F9F9;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
 }
 
 #consultation h1 {
@@ -303,16 +303,11 @@ margin: 0 auto;
   margin: 0 auto;
 }
 
-#consultation button {
-  width: 100%;
-  background-color: green;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  margin: 0 auto;
-  display: block;
-  text-align: center;
+.schedule-consultation-button{
+    background-color: #00ff00; /* bright green */
+    margin-bottom: 20px; /* add space underneath the button */
 }
+
 
 
 /* Footer */
