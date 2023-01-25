@@ -239,6 +239,9 @@ p {
 }
 
 #schedule-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: green;
   color: white; /* sets text color to white */
   border-radius: 10px; /* sets rounded corners */
