@@ -39,6 +39,7 @@ nav a:hover {
   color: #fff;
 }
 
+
 .hero-section {
     position: relative; /* to make the logo-image absolute positioned */
     width: 100%; /* to make the hero-banner take the entire width of its parent container */
@@ -52,6 +53,7 @@ nav a:hover {
     min-height: 100%; 
     background-size: contain; /* to make the background image cover the entire hero-banner */
     background-position: center; /* to center the background image */
+}
 
 .logo-image {
     position: absolute; /* to position the logo-image inside the hero-section */
