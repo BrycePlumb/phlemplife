@@ -38,10 +38,12 @@ nav a:hover {
   color: #fff;
 }
 
+
+
 .hero-section {
     position: relative; /* to make the logo-image absolute positioned */
     width: 100%; /* to make the hero-banner take the entire width of its parent container */
-    height: 300px; /* to set the height of the hero-banner */
+    height: auto; /* to set the height of the hero-banner */
 }
 
 .hero-banner {
