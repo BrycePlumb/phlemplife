@@ -52,6 +52,7 @@ body {
     position: relative; /* to make the logo-image absolute positioned */
     width: 100%; /* to make the hero-banner take the entire width of its parent container */
     height: 600px; /* to set the height of the hero-banner */
+    background-color: #ADD8E6; /* Add a background color to the hero section */
 }
 
 /* Hero Banner */
@@ -71,6 +72,7 @@ body {
     width: 190px; /* to set the width of the logo-image */
     height: 256px; /* to set the height of the logo-image */
 }
+
 
 
 
