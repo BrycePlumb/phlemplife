@@ -303,7 +303,7 @@ margin: 0 auto;
   
 /* Consultation Section */
 section#consultation {
-    background-color: #F8F9F9;/* Change the background color of the section */
+    background-color: #F8F9F9; /* Change the background color of the section */
     color: #333; /* Change the text color inside the section */
     text-align: center; /* Center the text inside the section */
     padding: 20px; /* Add some padding to the section */
@@ -312,10 +312,10 @@ section#consultation {
 /* Consultation Header */
 section#consultation h1 {
     font-size: 1.5em; /* Increase the font size of the h1 */
-    color: blue;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    border-bottom: 2px solid blue;
+    color: blue; /* Change the color of the header text to blue */
+    padding-bottom: 10px; /* Add some padding to the bottom of the header */
+    margin-bottom: 10px; /* Add some margin to the bottom of the header */
+    border-bottom: 2px solid blue; /* Add a blue border at the bottom of the header */
 }
 
 /* Consultation Paragraph */
@@ -325,14 +325,11 @@ section#consultation p {
 
 /* Schedule Consultation Button */
 section#consultation .schedule-consultation-button {
-    background-color: green; /* Change the background color of the button */
-    color: white; /* Change the text color inside the button */
+    background-color: green; /* Change the background color of the button to green */
+    color: white; /* Change the text color inside the button to white */
     padding: 10px 20px; /* Add some padding to the button */
     border-radius: 5px; /* Add some rounded corners to the button */
-    border: none; /* Remove the border of the button */
-    font-size: 1.2em; /* Increase the font size of the button text */
-    margin-top: 20px; /* Add some margin to the top of the button */
-    text-decoration: none;
+    border: none; /* Remove the border of
 }
 
 
