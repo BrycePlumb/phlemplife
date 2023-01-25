@@ -66,6 +66,7 @@ nav a:hover {
     align-items: center;
     text-align: center;
     padding: 20px;
+    width:100%;
 }
 #life-insurance h1 {
     color: #0352A9;
@@ -292,12 +293,12 @@ margin: 0 auto;
 
 #consultation h1 {
 color: #0352A9;
-width: 75%;
+width: 100%;
 text-align: center;
 }
 
 #consultation p {
-width: 75%;
+width: 100%;
 text-align: center;
 }
 
