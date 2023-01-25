@@ -224,23 +224,33 @@ p {
 
 
 
-#annuities schedule {
-  text-align: center;
-  background-color: #F8F9F9; /* adds background color */
-  padding: 20px; /* adds padding */
-  width: 100%;
+#annuitiesschedule {
+    text-align: center;
+    padding: 20px;
+    background-color: #F8F9F9; /* change the background color as desired */
 }
 
-#annuities schedule h1 {
-  color: #0352A9;
-  font-size: 2em; /* increases font size */
-  margin-bottom: 10px; /* adds margin */
-  width: 100%;
+#annuitiesschedule h1 {
+    color: #0352A9; /* change the color as desired */
+    margin-bottom: 10px; /* add some spacing between the h1 and p */
 }
 
-.schedule-consultation-button{
-    background-color: #00ff00; /* bright green */
-    margin-bottom: 20px; /* add space underneath the button */
+#annuitiesschedule p {
+    margin-bottom: 20px; /* add some spacing between the p and button */
+}
+
+#annuitiesschedule .schedule-consultation-button {
+    background-color: #4CAF50; /* change the background color as desired */
+    color: white; /* change the text color as desired */
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /* make the cursor change when hovering over the button */
+    font-size: 16px;
+}
+
+#annuitiesschedule .schedule-consultation-button:hover {
+    background-color: #3e8e41; /* change the background color on hover as desired */
 }
 
 
