@@ -38,23 +38,31 @@ nav a:hover {
   background-color: #39a5dc;
   color: #fff;
 }
+/* Basic styling */
+body {
+  width: 100%;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-
+/* Hero Section */
 .hero-section {
     position: relative; /* to make the logo-image absolute positioned */
     width: 100%; /* to make the hero-banner take the entire width of its parent container */
-    height: auto; /* to set the height of the hero-banner */
+    height: 600px; /* to set the height of the hero-banner */
 }
 
+/* Hero Banner */
 .hero-banner {
     background-image: url('banner-home-page.png'); /* path to the background image */
-    width: 100%;
-    height: auto;
-    min-height: 100%; 
-    background-size: contain; /* to make the background image cover the entire hero-banner */
+    background-size: cover; /* to make the background image cover the entire hero-banner */
     background-position: center; /* to center the background image */
+    width: 100%;
+    height: 100%;
 }
 
+/* Logo Image */
 .logo-image {
     position: absolute; /* to position the logo-image inside the hero-section */
     bottom: 20px; /* to position the logo-image 20px from the bottom */
