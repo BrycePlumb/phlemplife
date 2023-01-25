@@ -103,6 +103,7 @@ p {
   text-align: center;
   margin-bottom: 10px;
   width: 100%;
+  font-size: 2em;
 }
 
 #annuitiesSPIA .bar-image { /* changed to keep the image at its original size */
@@ -144,6 +145,7 @@ p {
   text-align: center;
   margin-bottom: 10px;
   width: 100%;
+  font-size: 2em;
 }
 
 
@@ -194,6 +196,7 @@ p {
   text-align: center;
   margin-bottom: 10px;
   width: 100%;
+  font-size: 2em;
 }
 
 #annuitiesMYGA .bar-image {
