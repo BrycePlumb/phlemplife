@@ -58,14 +58,10 @@ nav a:hover {
   
   
   
-}
 #life-insurance {
     display: flex;
-    background-color: #F8F9F9;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    padding: 20px;
 }
 
 #life-insurance h1 {
