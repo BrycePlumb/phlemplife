@@ -39,7 +39,6 @@ nav a:hover {
 }
 
 
-/* Hero Section */
 .hero-section {
     position: relative; /* to make the logo-image absolute positioned */
     width: 100%; /* to make the hero-banner take the entire width of its parent container */
