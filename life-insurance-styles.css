@@ -302,34 +302,37 @@ margin: 0 auto;
   
 /* Consultation Section */
 section#consultation {
-    background-color: #F8F9F9; /* Change the background color of the section */
-    color: #333; /* Change the text color inside the section */
-    text-align: center; /* Center the text inside the section */
-    padding: 20px; /* Add some padding to the section */
+    text-align: center;
+    padding: 20px;
+    background-color: #F8F9F9;
 }
-
 /* Consultation Header */
 section#consultation h1 {
-    font-size: 1.5em; /* Increase the font size of the h1 */
-    color: blue; /* Change the color of the header text to blue */
-    padding-bottom: 10px; /* Add some padding to the bottom of the header */
-    margin-bottom: 10px; /* Add some margin to the bottom of the header */
-    border-bottom: none; /* Remove the border at the bottom of the header */
+    color: #0352A9; /* change the color as desired */
+    margin-bottom: 10px; /* add some spacing between the h1 and p */
 }
+
 
 /* Consultation Paragraph */
 section#consultation p {
-    font-size: 1.2em; /* Increase the font size of the p */
+    margin-bottom: 20px; /* add some spacing between the p and button */
 }
 
 /* Schedule Consultation Button */
-section#consultation .schedule-consultation-button {
-    background-color: green; /* Change the background color of the button to green */
-    color: white; /* Change the text color inside the button to white */
-    padding: 10px 20px; /* Add some padding to the button */
-    border-radius: 5px; /* Add some rounded corners to the button */
-    border: none; /* Remove the border of
+    section#consultation .schedule-consultation-button {
+    background-color: #4CAF50; /* change the background color as desired */
+    color: white; /* change the text color as desired */
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /* make the cursor change when hovering over the button */
+    font-size: 16px;
 }
+
+#annuitiesschedule .schedule-consultation-button:hover {
+    background-color: #3e8e41; /* change the background color on hover as desired */
+}
+
 
 
 
