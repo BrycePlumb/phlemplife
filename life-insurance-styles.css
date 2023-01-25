@@ -332,6 +332,7 @@ section#consultation .schedule-consultation-button {
 }
 
 
+ 
 /* Footer */
 footer {
   background-color: #333;
@@ -349,16 +350,22 @@ overflow: hidden;
 }
 nav li {
 display: block;
+ 
+  
+  
+  
+  
+  /* Mobile styles for hero section */
+@media only screen and (max-width: 480px) {
+    .hero-section {
+        height: 150px; /* set a smaller height for the hero-section on mobile */
+    }
+    .logo-image {
+        width: 80px; /* set a smaller width for the logo-image on mobile */
+        height: 120px; /* set a smaller height for the logo-image on mobile */
+    }
+}
 margin: 10px 0;
 }
 
-  /* Product Styles */
-  .product-container {
-    flex-wrap: wrap;
-  }
-
-  .product {
-    flex-basis: 100%;
-  }
-}
 
