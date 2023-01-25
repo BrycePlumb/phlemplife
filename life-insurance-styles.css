@@ -125,10 +125,10 @@ body {
     font-size: 1.2em;
     color: black;
     text-align: center;
-    width: 100%;
-    margin-top: 3em;
-    margin-bottom: 3em;
+    max-width: 75%; /* set the max width */
+    margin: 3em auto; /* center the element horizontally */
 }
+
 
 #business {
   background-color: #F8F9F9;
@@ -150,8 +150,8 @@ body {
     font-size: 1.2em;
     color: black;
     text-align: center;
-    width: 100%;
-    margin-bottom: 3em;
+    max-width: 75%; /* set the max width */
+    margin: 3em auto; /* center the element horizontally */
 }
 
 #medical {
@@ -175,8 +175,8 @@ body {
     font-size: 1.2em;
     color: black;
     text-align: center;
-    width: 100%;
-    margin-bottom: 3em;
+    max-width: 75%; /* set the max width */
+    margin: 3em auto; /* center the element horizontally */
 }
 
 #planning {
@@ -188,13 +188,12 @@ body {
 
 
 #planning h1 {
-    font-size: 1.2em;
+     font-size: 1.2em;
     color: black;
     text-align: center;
-    width: 100%;
-    margin-bottom: 3em;
+    max-width: 75%; /* set the max width */
+    margin: 3em auto; /* center the element horizontally */
 }
-
 
 #planning .face4-image {
     width: 20%; /* adjust as needed */
@@ -306,6 +305,7 @@ section#consultation {
     padding: 20px;
     background-color: #F8F9F9;
 }
+
 /* Consultation Header */
 section#consultation h1 {
     color: #0352A9; /* change the color as desired */
