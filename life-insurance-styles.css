@@ -73,15 +73,15 @@ nav a:hover {
     color: #0352A9;
     padding: 10px;
     text-align: center;
-    margin: 0;
+    align-self: center;
 }
-
 
 #life-insurance p {
     padding: 10px;
     text-align: center;
-    margin: 0;
+    align-self: center;
 }
+
 
 
 
