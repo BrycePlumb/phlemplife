@@ -279,32 +279,36 @@ margin: 0 auto;
   
   
   
-  
 #consultation {
-  background-color: #F8F9F9;
-  text-align: center;
-  width: 100%;
-  margin: 0 auto;
+background-color: #0352A9; /* Change the background color of the section /
+color: white; / Change the text color inside the section to white /
+text-align: center; / Center the text inside the section /
+padding: 20px; / Add some padding to the section */
 }
 
 #consultation h1 {
-  color: #0352A9;
-  width: 100%;
-  text-align: center;
-  margin: 0 auto;
+font-size: 1.5em; /* Increase the font size of the h1 */
 }
 
 #consultation p {
-  width: 100%;
-  text-align: center;
-  margin: 0 auto;
+font-size: 1.2em; /* Increase the font size of the p */
 }
 
-.schedule-consultation-button{
-    background-color: #00ff00; /* bright green */
-    margin-bottom: 20px; /* add space underneath the button */
+.schedule-consultation-button {
+background-color: white; /* Change the background color of the button /
+color: #0352A9; / Change the text color inside the button /
+padding: 10px 20px; / Add some padding to the button /
+border-radius: 5px; / Add some rounded corners to the button /
+border: none; / Remove the border of the button /
+font-size: 1.2em; / Increase the font size of the button text /
+margin-top: 20px; / Add some margin to the top of the button */
 }
 
+.schedule-consultation-button:hover {
+background-color: #0352A9; /* Change the background color of the button when hovered over /
+color: white; / Change the text color inside the button when hovered over /
+cursor: pointer; / Change the cursor to a pointer when hovered over */
+}
 
 
 /* Footer */
