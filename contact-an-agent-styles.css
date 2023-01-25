@@ -47,10 +47,10 @@ nav a:hover {
 .hero-banner {
     background-image: url('banner-contact-an-agent.png'); /* path to the background image */
     width: 100%;
-    height: 100%;
-    background-size: cover; /* to make the background image cover the entire hero-banner */
+    height: auto;
+    min-height: 100%; 
+    background-size: contain; /* to make the background image cover the entire hero-banner */
     background-position: center; /* to center the background image */
-}
 
 
 /* Main Content Styles */
