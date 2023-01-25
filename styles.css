@@ -113,6 +113,7 @@ margin-bottom: 10px;
   border-radius: 10px; /* sets rounded corners */
   padding: 10px 20px; /* adds padding to the button */
   text-decoration: none; /* remove underline from the link */
+    margin-bottom: 1em; /* add more space as per your requirement */
 }
 
 
@@ -162,6 +163,7 @@ margin-bottom: 10px;
   border-radius: 10px; /* sets rounded corners */
   padding: 10px 20px; /* adds padding to the button */
   text-decoration: none; /* remove underline from the link */
+    margin-bottom: 1em; /* add more space as per your requirement */
 }
 
 
