@@ -104,6 +104,7 @@ align-items: center;
 #first-image {
 width: 45%;
 height: auto;
+margin-top: 10px;
 margin-bottom: 10px;
 }
 
@@ -145,6 +146,7 @@ margin-bottom: 10px;
 #life-insurance-section #third-image {
  width: 45%;
  height: auto;
+ margin-top: 10px;
  margin-bottom: 10px;
 }
 
