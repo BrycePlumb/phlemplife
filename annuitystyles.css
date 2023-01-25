@@ -64,6 +64,9 @@ nav a:hover {
 
 
 
+
+
+
 #annuitiesSPIA {
   text-align: center;
   background-color: #F8F9F9;
@@ -88,7 +91,7 @@ nav a:hover {
   margin-bottom: 10px;
 }
 
-#annuitiesSPIA h2 {
+#annuitiesSPIA p {
   text-align: center;
   margin-bottom: 10px;
   width: 75%;
@@ -131,7 +134,7 @@ nav a:hover {
   margin-bottom: 10px;
 }
 
-#annuitiesFIA h2 {
+#annuitiesFIA p {
   width: 75%;
   text-align: center;
   margin-bottom: 10px;
@@ -180,7 +183,7 @@ nav a:hover {
 }
 
 
-#annuitiesMYGA h2 {
+#annuitiesMYGA p {
   text-align: center;
   margin-bottom: 10px;
   width: 75%;
