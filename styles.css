@@ -207,7 +207,7 @@ margin: 10px 0;
 /* Mobile styles for hero section */
 @media only screen and (max-width: 480px) {
     .hero-section {
-        height: 400px; /* set a smaller height for the hero-section on mobile */
+        height: 250px; /* set a smaller height for the hero-section on mobile */
     }
     .logo-image {
         width: 150px; /* set a smaller width for the logo-image on mobile */
