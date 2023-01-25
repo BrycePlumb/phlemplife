@@ -8,7 +8,6 @@ body {
 
 /* Header */
 header {
-  display:inline-block
   background-color: #39a5dc;
   color: #fff;
   text-align: center;
@@ -17,7 +16,6 @@ header {
 
 /* Navigation */
 nav {
-  display:inline-block
   background-color: #f7f7f7;
   text-align: center;
 }
@@ -40,6 +38,7 @@ nav a:hover {
   background-color: #39a5dc;
   color: #fff;
 }
+
 
 
 /* Hero Section */
