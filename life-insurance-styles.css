@@ -60,19 +60,28 @@ nav a:hover {
   
 }
 #life-insurance {
-  background-color: #F8F9F9;
+    display: flex;
+    background-color: #F8F9F9;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    width: 80%;
-    margin: 0 auto;
+    padding: 20px;
+}
+#life-insurance h1 {
+    color: #0352A9;
+    padding: 10px;
+    margin: 0;
+    width: 60%;
 }
 
-#life-insurance h1 {
-    font-size: 1.2em;
-    color: black;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 1em;
+
+life-insurance p {
+    padding: 10px;
+    margin: 0;
+    width: 40%;
 }
+
 
 #personal {
   background-color: white;
