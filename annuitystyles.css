@@ -249,7 +249,7 @@ p {
   text-decoration: none; /* remove underline */
   font-weight: bold; /* makes text bold */
   transition: background-color 0.2s ease-in; /* adds transition effect */
-    width: 100%;
+  margin-bottom: 25px; /* adds margin */
 }
 
 #schedule-button:hover {
