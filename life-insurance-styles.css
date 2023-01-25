@@ -63,6 +63,7 @@ nav a:hover {
     flex-direction: column; /* This will make the section display its children in a column */
     align-items: center; /* This will center the children horizontally */
     justify-content: center; /* This will center the children vertically
+     width: 100%;
 }
 
 #life-insurance h1 {
