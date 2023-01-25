@@ -238,7 +238,7 @@ p {
   width: 100%;
 }
 
-#schedule-button {
+.schedule-button {
   display: flex;
   justify-content: center;
   align-items: center;
