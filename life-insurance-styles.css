@@ -59,24 +59,23 @@ nav a:hover {
   
   
 #life-insurance {
-    display: flex;
+ display: flex;
     flex-direction: column; /* This will make the section display its children in a column */
     align-items: center; /* This will center the children horizontally */
-    justify-content: center; /* This will center the children vertically
-     width: 100%;
+    justify-content: center; /* This will center the children vertically */
+    text-align: center; /* This will center the text inside the section */
 }
-
+  
 #life-insurance h1 {
-    color: #0352A9;
+    color: #0352A9; /* This will change the color of the h1 text to #0352A9; 
     padding: 10px;
     text-align: center;
-    align-self: center;
+  
 }
 
 #life-insurance p {
     padding: 10px;
     text-align: center;
-    align-self: center;
 }
 
 
@@ -204,7 +203,7 @@ nav a:hover {
     font-size: 1.2em;
     color: #0352A9;
     text-align: center;
-    width: 100%
+    width: 100%;
     margin-top: 0;
     margin-bottom: 1em;
 }
