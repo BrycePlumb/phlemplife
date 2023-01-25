@@ -329,7 +329,7 @@ section#consultation p {
     font-size: 16px;
 }
 
-#annuitiesschedule .schedule-consultation-button:hover {
+    section#consultation .schedule-consultation-button {
     background-color: #3e8e41; /* change the background color on hover as desired */
 }
 
