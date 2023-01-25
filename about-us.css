@@ -86,6 +86,18 @@ margin: 10px 0;
 }
 
 
+/* Mobile styles for hero section */
+@media only screen and (max-width: 480px) {
+    .hero-section {
+        height: 150px; /* set a smaller height for the hero-section on mobile */
+    }
+    .logo-image {
+        width: 80px; /* set a smaller width for the logo-image on mobile */
+        height: 120px; /* set a smaller height for the logo-image on mobile */
+    }
+}
+
+
 
 
 
