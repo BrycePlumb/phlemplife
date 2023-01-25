@@ -64,12 +64,13 @@ body {
 
 /* Logo Image */
 .logo-image {
-    position: absolute; /* to position the logo-image inside the hero-section */
-    bottom: 20px; /* to position the logo-image 20px from the bottom */
-    left: 20px; /* to position the logo-image 20px from the left */
-    width: 190px; /* to set the width of the logo-image */
-    height: 256px; /* to set the height of the logo-image */
+    position: absolute; /* position the logo-image in the top right corner */
+    top: 10px; /* position the logo-image 10px from the top */
+    right: 10px; /* position the logo-image 10px from the right */
+    width: 190px; /* set the width of the logo-image */
+    height: 256px; /* set the height of the logo-image */
 }
+
 
 
 
