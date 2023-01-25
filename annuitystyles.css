@@ -62,7 +62,28 @@ nav a:hover {
 }
 
 
+.annuitieswelcome {
+    display: flex;
+    background-color: #F8F9F9;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
 
+h1 {
+    color: #0352A9;
+    padding: 10px;
+    margin: 0;
+    width: 60%;
+}
+
+p {
+    padding: 10px;
+    margin: 0;
+    width: 40%;
+}
 
 
 
