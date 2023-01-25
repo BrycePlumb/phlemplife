@@ -290,31 +290,29 @@ margin: 0 auto;
 }
 
 #consultation h1 {
-color: #0352A9;
-width: 100%;
-text-align: center;
+  color: #0352A9;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
 }
 
 #consultation p {
-width: 100%;
-text-align: center;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
 }
 
 #consultation button {
-width: 100%;
-background-color: green;
-color: white;
-border: none;
-padding: 10px 20px;
-margin: 0 auto;
-display: block;
-text-align: center;
+  width: 100%;
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
 }
 
-#consultation button:hover {
-background-color: darkgreen;
-cursor: pointer;
-}
 
 /* Footer */
 footer {
