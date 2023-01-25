@@ -228,12 +228,14 @@ p {
   text-align: center;
   background-color: #F8F9F9; /* adds background color */
   padding: 20px; /* adds padding */
+  width: 100%;
 }
 
 #annuities schedule h1 {
   color: #0352A9;
   font-size: 2em; /* increases font size */
   margin-bottom: 10px; /* adds margin */
+  width: 100%;
 }
 
 #schedule-button {
