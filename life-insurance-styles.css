@@ -81,6 +81,7 @@ body {
   
 #life-insurance {
  display: flex;
+  background-color: #F8F9F9;
     flex-direction: column; /* This will make the section display its children in a column */
     align-items: center; /* This will center the children horizontally */
     justify-content: center; /* This will center the children vertically */
@@ -115,7 +116,7 @@ body {
     margin: 0 auto;
     display: block;
     text-align: center;
-   margin-bottom: 3em; /* add more space as per your requirement */
+   margin-top: 3em; /* add more space as per your requirement */
 }
 
 #personal h1 {
@@ -140,7 +141,7 @@ body {
     margin: 0 auto;
     display: block;
     text-align: center;
-   margin-bottom: 3em; /* add more space as per your requirement */
+   margin-top: 3em; /* add more space as per your requirement */
 }
 
 #business h1 {
@@ -165,7 +166,7 @@ body {
     margin: 0 auto;
     display: block;
     text-align: center;
-   margin-bottom: 3em; /* add more space as per your requirement */
+   margin-top: 3em; /* add more space as per your requirement */
 }
 
 #medical h1 {
@@ -201,7 +202,7 @@ body {
     margin: 0 auto;
     display: block;
     text-align: center;
-   margin-bottom: 3em; /* add more space as per your requirement */
+   margin-top: 3em; /* add more space as per your requirement */
 }
 
 
@@ -314,7 +315,7 @@ section#consultation h1 {
     color: blue; /* Change the color of the header text to blue */
     padding-bottom: 10px; /* Add some padding to the bottom of the header */
     margin-bottom: 10px; /* Add some margin to the bottom of the header */
-    border-bottom: 2px solid blue; /* Add a blue border at the bottom of the header */
+    border-bottom: none; /* Remove the border at the bottom of the header */
 }
 
 /* Consultation Paragraph */
@@ -330,6 +331,7 @@ section#consultation .schedule-consultation-button {
     border-radius: 5px; /* Add some rounded corners to the button */
     border: none; /* Remove the border of
 }
+
 
 
  
