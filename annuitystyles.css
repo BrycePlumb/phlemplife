@@ -238,23 +238,11 @@ p {
   width: 100%;
 }
 
-.schedule-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: green;
-  color: white; /* sets text color to white */
-  border-radius: 10px; /* sets rounded corners */
-  padding: 10px 20px; /* adds padding */
-  text-decoration: none; /* remove underline */
-  font-weight: bold; /* makes text bold */
-  transition: background-color 0.2s ease-in; /* adds transition effect */
-  margin-bottom: 25px; /* adds margin */
+.schedule-consultation-button{
+    background-color: #00ff00; /* bright green */
+    margin-bottom: 20px; /* add space underneath the button */
 }
 
-#schedule-button:hover {
-  background-color: darkgreen; /* changes background color on hover */
-}
 
 
 
