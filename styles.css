@@ -38,13 +38,7 @@ nav a:hover {
   background-color: #39a5dc;
   color: #fff;
 }
-/* Basic styling */
-body {
-  width: 100%;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
+
 
 /* Hero Section */
 .hero-section {
