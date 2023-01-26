@@ -181,6 +181,27 @@ margin-bottom: 10px;
 }
 
 
+#disclosures {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
 
 
 
