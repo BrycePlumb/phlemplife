@@ -184,13 +184,6 @@ margin-bottom: 10px;
 
 
 
-/* Footer Styles */
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 1rem;
-  text-align: center;
-}
 
 /* Media Queries for responsive design /
 @media (max-width: 600px) {
@@ -208,7 +201,7 @@ margin: 10px 0;
 /* Mobile styles for hero section */
 @media only screen and (max-width: 480px) {
     .hero-section {
-        height: 150px; /* set a smaller height for the hero-section on mobile */
+        height: 50px; /* set a smaller height for the hero-section on mobile */
     }
     .logo-image {
         width: 80px; /* set a smaller width for the logo-image on mobile */
