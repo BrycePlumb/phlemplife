@@ -94,7 +94,7 @@ p {
 
 
 
-#annuitiesSPIA {
+#annuities {
   text-align: center;
   background-color: #F8F9F9;
   display: flex;
@@ -103,7 +103,7 @@ p {
   width: 100%;
 }
 
-#annuitiesSPIA h1 {
+#annuities h1 {
   color: #0352A9;
   text-align: center;
   margin-bottom: 10px;
@@ -111,7 +111,7 @@ p {
   font-size: 2em;
 }
 
-#annuitiesSPIA .bar-image { /* changed to keep the image at its original size */
+#annuities .bar-image { /* changed to keep the image at its original size */
   width: 20%;
   height: auto;
   margin: 0 auto;
@@ -119,13 +119,13 @@ p {
   margin-bottom: 10px;
 }
 
-#annuitiesSPIA p {
+#annuities p {
   text-align: center;
   margin-bottom: 10px;
   width: 75%;
 }
 
-#annuitiesSPIA .SPIA-image { /* added to make the image span across the entire screen */
+#annuities .image { /* added to make the image span across the entire screen */
   width: 80%;
   height: auto;
   display: block;
@@ -136,96 +136,6 @@ p {
 
 
 
-#annuitiesFIA {
-  text-align: center;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-
-#annuitiesFIA h1 {
-  color: #0352A9;
-  text-align: center;
-  margin-bottom: 10px;
-  width: 100%;
-  font-size: 2em;
-}
-
-
-
-#annuitiesFIA .bar-image {
-  width: 20%;
-  height: auto;
-  margin: 0 auto;
-  display: block;
-  margin-bottom: 10px;
-}
-
-#annuitiesFIA p {
-  width: 75%;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-
-.FIA-image {
-  width: 80%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 10px;
-}
-
-
-
-
-
-
-
-
-
-
-#annuitiesMYGA {
-  text-align: center;
-  background-color: #F8F9F9;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-
-#annuitiesMYGA h1 {
-  color: #0352A9;
-  text-align: center;
-  margin-bottom: 10px;
-  width: 100%;
-  font-size: 2em;
-}
-
-#annuitiesMYGA .bar-image {
-  width: 20%;
-  height: auto;
-  margin: 0 auto;
-  display: block;
-  margin-bottom: 10px;
-}
-
-
-#annuitiesMYGA p {
-  text-align: center;
-  margin-bottom: 10px;
-  width: 75%;
-}
-
-.MYGA-image {
-  width: 80%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 10px;
-}
 
 
 
