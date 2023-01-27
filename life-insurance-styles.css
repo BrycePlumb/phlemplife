@@ -211,14 +211,14 @@ body {
   
   
   
-#Term {
+#Insurance {
   background-color: white;
   text-align: center;
   width: 100%;
   margin: 0 auto;
 }
 
-#Term h1 {
+#Insurance h1 {
     font-size: 1.2em;
     color: #0352A9;
     text-align: center;
@@ -228,7 +228,7 @@ body {
 }
   
 
-#Term .term-image {
+#Insurance .image {
     width: 75%; /* adjust as needed */
     height: auto;
     margin: 0 auto;
@@ -241,57 +241,7 @@ body {
   
   
 
-#WholeLife {
-background-color: #F8F9F9;
-text-align: center;
-width: 100%;
-margin: 0 auto;
-}
 
-#WholeLife h1 {
-    font-size: 1.2em;
-    color: #0352A9;
-    text-align: center;
-    width: 100%;
-    margin-top: 3em;
-}
-
-#WholeLife .wl-image {
-    width: 75%; /* adjust as needed */
-    height: auto;
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-    margin-bottom: 3em; /* add more space as per your requirement */
-}
-
-  
-  
-  
-#IndexedUniversalLife {
-background-color: white;
-text-align: center;
-width: 100%;
-margin: 0 auto;
-}
-
-#IndexedUniversalLife h1 {
-    font-size: 1.2em;
-    color: #0352A9;
-    text-align: center;
-    width: 100%;
-    margin-top: 0;
-    margin-bottom: 1em;
-}
-
-#IndexedUniversalLife .iul-image {
-    width: 75%; /* adjust as needed */
-    height: auto;
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-   margin-bottom: 3em; /* add more space as per your requirement */
-}
 
   
   
