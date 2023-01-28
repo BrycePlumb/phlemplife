@@ -197,13 +197,13 @@ width: 75%;
 
 
 .disclosures1 {
-    background-color: white; /* add a background color */
-    width: 100%; /* make the section take up the full width of the parent container */
-    margin: 0 auto; /* center the section on the page */
-    background-color: #f7f7f7; /* add a background color */
-    padding: 20px; /* add padding to the section */
-    text-align: center; /* center the text */
-    font-size: 12px; /* change font size */
+width: 100vw; /* make the section take up the full width of the viewport /
+margin: 0; / remove the automatic margin /
+background-color: white; / add a background color /
+padding: 20px; / add padding to the section /
+text-align: center; / center the text /
+font-size: 12px; / change font size */
+}
   
 }
 .footer1 {
