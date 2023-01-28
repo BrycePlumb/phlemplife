@@ -294,6 +294,8 @@ overflow: hidden;
 }
 nav li {
 display: block;
+     }
+}
  
   
   
@@ -308,5 +310,4 @@ display: block;
         height: 120px; /* set a smaller height for the logo-image on mobile */
     }
 }
-
 
