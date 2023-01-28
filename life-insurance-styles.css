@@ -71,7 +71,7 @@ nav a:hover {
   
   
   
-#life-insurance {
+.life-insurance {
  display: flex;
   background-color: #F8F9F9;
     flex-direction: column; /* This will make the section display its children in a column */
@@ -80,14 +80,14 @@ nav a:hover {
     text-align: center; /* This will center the text inside the section */
 }
   
-#life-insurance h1 {
+.life-insurance h1 {
     color: #0352A9; /* This will change the color of the h1 text to #0352A9 */
     padding: 10px;
     text-align: center;
   
 }
 
-#life-insurance p {
+.life-insurance p {
     padding: 10px;
     text-align: center;
 }
@@ -95,14 +95,14 @@ nav a:hover {
 
 
 
-#personal {
+.personal {
   background-color: white;
     text-align: center;
     width: 100%;
     margin: 0 auto;
 }
 
-#personal .face1-image {
+.personal .face1-image {
     width: 20%; /* adjust as needed */
     height: auto;
     margin: 0 auto;
@@ -111,7 +111,7 @@ nav a:hover {
    margin-top: 3em; /* add more space as per your requirement */
 }
 
-#personal h1 {
+.personal h1 {
     font-size: 1.2em;
     color: black;
     text-align: center;
@@ -120,14 +120,14 @@ nav a:hover {
 }
 
 
-#business {
+.business {
   background-color: #F8F9F9;
     text-align: center;
     width: 100%;
     margin: 0 auto;
 }
 
-#business .face2-image {
+.business .face2-image {
     width: 20%; /* adjust as needed */
     height: auto;
     margin: 0 auto;
@@ -136,7 +136,7 @@ nav a:hover {
     margin-top: 3em; /* add more space as per your requirement */
 }
 
-#business h1 {
+.business h1 {
     font-size: 1.2em;
     color: black;
     text-align: center;
@@ -144,14 +144,14 @@ nav a:hover {
     margin: 3em auto; /* center the element horizontally */
 }
 
-#medical {
+.medical {
   background-color: white;
     text-align: center;
     width: 100%;
     margin: 0 auto;
 }
 
-#medical .face3-image {
+.medical .face3-image {
     width: 20%; /* adjust as needed */
     height: auto;
     margin: 0 auto;
@@ -161,7 +161,7 @@ nav a:hover {
     
 }
 
-#medical h1 {
+.medical h1 {
     font-size: 1.2em;
     color: black;
     text-align: center;
@@ -169,7 +169,7 @@ nav a:hover {
     margin: 3em auto; /* center the element horizontally */
 }
 
-#planning {
+.planning {
   background-color: #F8F9F9;
     text-align: center;
     width: 100%;
@@ -177,7 +177,7 @@ nav a:hover {
 }
 
 
-#planning h1 {
+.planning h1 {
      font-size: 1.2em;
     color: black;
     text-align: center;
@@ -185,7 +185,7 @@ nav a:hover {
     margin: 3em auto; /* center the element horizontally */
 }
 
-#planning .face4-image {
+.planning .face4-image {
     width: 20%; /* adjust as needed */
     height: auto;
     margin: 0 auto;
@@ -203,14 +203,14 @@ nav a:hover {
   
   
   
-#Insurance {
+.Insurance {
   background-color: white;
   text-align: center;
   width: 100%;
   margin: 0 auto;
 }
 
-#Insurance h1 {
+.Insurance h1 {
     font-size: 1.2em;
     color: #0352A9;
     text-align: center;
@@ -220,7 +220,7 @@ nav a:hover {
 }
   
 
-#Insurance .image {
+.Insurance .image {
     width: 50%; /* adjust as needed */
     height: auto;
     margin: 0 auto;
@@ -240,26 +240,26 @@ nav a:hover {
   
   
 /* Consultation Section */
-section#consultation {
+.consultation {
     text-align: center;
     padding: 20px;
     background-color: #F8F9F9;
 }
 
 /* Consultation Header */
-section#consultation h1 {
+.consultation h1 {
     color: #0352A9; /* change the color as desired */
     margin-bottom: 10px; /* add some spacing between the h1 and p */
 }
 
 
 /* Consultation Paragraph */
-section#consultation p {
+.consultation p {
     margin-bottom: 20px; /* add some spacing between the p and button */
 }
 
 /* Schedule Consultation Button */
-    section#consultation .schedule-consultation-button {
+    .schedule-consultation-button {
     background-color: #4CAF50; /* change the background color as desired */
     color: white; /* change the text color as desired */
     padding: 12px 20px;
