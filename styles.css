@@ -195,11 +195,12 @@ margin-bottom: 10px;
 
 
 #disclosures {
-    font-size: 14px;
-    width: 100%;
-    line-height: 1.5;
-    margin-bottom: 20px;
+  font-size: smaller;
+  position: absolute;
+  bottom: 0;
+  width: 80%;
 }
+
 
 
 footer {
