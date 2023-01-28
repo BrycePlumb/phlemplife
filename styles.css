@@ -200,9 +200,8 @@ width: 75%;
 width: 100vw; /* make the section take up the full width of the viewport /
 margin: 0; / remove the automatic margin /
 background-color: white; / add a background color /
-padding: 20px; / add padding to the section /
 text-align: center; / center the text /
-font-size: 12px; / change font size */
+font-size: 9px; / change font size */
 }
   
 }
