@@ -112,11 +112,10 @@ p {
 }
 
 #annuities .bar-image { /* changed to keep the image at its original size */
-  width: 20%;
+  width: 80%;
   height: auto;
   margin: 0 auto;
   display: block;
-  margin-bottom: 10px;
 }
 
 #annuities p {
