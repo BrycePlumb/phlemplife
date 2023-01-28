@@ -297,6 +297,15 @@ display: block;
      }
 }
  
+@media (max-width: 768px) {
+  #personal h1, #business h1, #medical h1, #planning h1 {
+    font-size: 1em; /* adjust as needed */
+  }
+  #personal .face1-image, #business .face2-image, #medical .face3-image, #planning .face4-image {
+    width: 30%; /* adjust as needed */
+  }
+}
+
   
   
   
