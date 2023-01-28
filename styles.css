@@ -197,6 +197,7 @@ width: 75%;
 
 
 .disclosures1 {
+    background-color: white; /* add a background color */
     width: 100%; /* make the section take up the full width of the parent container */
     margin: 0 auto; /* center the section on the page */
     background-color: #f7f7f7; /* add a background color */
