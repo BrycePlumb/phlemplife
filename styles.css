@@ -194,27 +194,26 @@ font-weight:bold;
 }
 
 
-section.disclosures {
-  width: 100%;
-  font-size: 0.9em;
+.section {
+    width: 80%; /* adjust as needed */
+    margin: 0 auto; /* center the section on the page */
 }
 
-
-
-footer {
-  background-color: #333333; /* or any other color */
-  color: white; /* or any other color */
-  text-align: center;
-  padding: 1em; /* or any other value */
-  font-size: 0.8em; /* or any other value */
+.disclosures {
+    background-color: #f7f7f7; /* add a background color */
+    padding: 20px; /* add padding to the section */
+    text-align: center; /* center the text */
 }
-footer a {
-  color: #999999; /* or any other color */
-  text-decoration: none;
+
+.footer {
+    background-color: #333; /* add a background color */
+    color: #fff; /* change the text color */
+    padding: 10px; /* add padding to the section */
+    text-align: center; /* center the text */
 }
-footer a:hover {
-  color: #ffffff; /* or any other color */
-  text-decoration: underline;
+
+.footer a {
+    color: #fff; /* change the link color */
 }
 
 
