@@ -194,11 +194,20 @@ margin-bottom: 10px;
 }
 
 
-#disclosures {
-  font-size: smaller;
-  position: absolute;
-  bottom: 0;
-  width: 80%;
+footer {
+  background-color: #333333; /* or any other color */
+  color: white; /* or any other color */
+  text-align: center;
+  padding: 1em; /* or any other value */
+  font-size: 0.8em; /* or any other value */
+}
+footer a {
+  color: #999999; /* or any other color */
+  text-decoration: none;
+}
+footer a:hover {
+  color: #ffffff; /* or any other color */
+  text-decoration: underline;
 }
 
 
