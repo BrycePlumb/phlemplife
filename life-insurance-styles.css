@@ -14,6 +14,22 @@ header {
   padding: 20px;
 }
 
+/* Basic styling */
+body {
+  width: 100%;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #39a5dc;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
 /* Navigation */
 nav {
   background-color: #f7f7f7;
@@ -37,14 +53,6 @@ nav a {
 nav a:hover {
   background-color: #39a5dc;
   color: #fff;
-}
-
-/* Basic styling */
-body {
-  width: 100%;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
 }
 
 /* Hero Section */
