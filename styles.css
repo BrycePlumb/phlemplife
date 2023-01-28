@@ -194,6 +194,13 @@ font-weight:bold;
 }
 
 
+section.disclosures {
+  width: 100%;
+  font-size: 0.9em;
+}
+
+
+
 footer {
   background-color: #333333; /* or any other color */
   color: white; /* or any other color */
@@ -211,21 +218,6 @@ footer a:hover {
 }
 
 
-
-footer {
-    font-size: 12px;
-    text-align: center;
-    margin-top: 20px;
-}
-
-footer a {
-    color: #333;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
 
 
 
