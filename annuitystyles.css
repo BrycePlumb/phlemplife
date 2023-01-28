@@ -89,6 +89,7 @@ p {
   text-align: center;
   margin-bottom: 10px;
   width: 100%;
+  font-weight:bold;
 }
 
 
@@ -122,6 +123,7 @@ p {
   text-align: center;
   margin-bottom: 10px;
   width: 75%;
+  font-weight:bold;
 }
 
 #annuities .image { /* added to make the image span across the entire screen */
@@ -151,6 +153,7 @@ p {
 
 #annuitiesschedule p {
     margin-bottom: 20px; /* add some spacing between the p and button */
+    font-weight:bold;
 }
 
 #annuitiesschedule .schedule-consultation-button {
