@@ -26,19 +26,20 @@ nav ul {
 }
 nav li {
   display: inline-block;
-  margin: 0 10px;
 }
 nav a {
   color: #333;
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 10px;
+  margin: 0 10px;
   font-weight: bold;
 }
-
 nav a:hover {
   background-color: #39a5dc;
   color: #fff;
 }
+
+
 
 /* Hero Section */
 .hero-section {
