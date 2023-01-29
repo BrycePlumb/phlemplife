@@ -243,18 +243,25 @@ p {
 
 
 .disclosures1 {
-  padding-top: 100px;  /* add 20px top padding */
+  padding-top: 100px;
   width: 100vw;
   margin: 0;
   background-color: #F8F9F9;
-  font-size: 9px;
+  font-size: 12px;
+  font-weight: lighter;
+  box-sizing: border-box;
 }
 
 .disclosures1 p {
-  width: 100vw;
-  background-color: white;
-  font-size: 9px;
+  width: 100%;
+  background-color: #F8F9F9;
+  font-size: 12px;
+  font-weight: lighter;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
+
 
  
 
