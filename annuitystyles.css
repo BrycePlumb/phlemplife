@@ -117,7 +117,7 @@ nav a:hover {
 
 
 .annuitiesSPIA {
-  text-align: center;
+  text-align: left;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -155,7 +155,7 @@ nav a:hover {
 
 
 .annuitiesFIA {
-  text-align: center;
+  text-align: left;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -190,7 +190,7 @@ nav a:hover {
 
 
 .annuitiesMYGA {
-  text-align: center;
+  text-align: left;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
