@@ -134,6 +134,7 @@ nav a:hover {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+  font-weight:bold;
 }
 
 .annuitiesSPIA .SPIAimage {
@@ -163,6 +164,7 @@ nav a:hover {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+  font-weight:bold;
 }
 
 .annuitiesFIA .FIAimage {
@@ -190,6 +192,7 @@ annuitiesMYGA .MYGA-image {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+  font-weight:bold;
 }
 
 .annuitiesMYGA .MYGAimage {
