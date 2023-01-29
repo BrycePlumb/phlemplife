@@ -156,6 +156,11 @@ nav a:hover {
 
 .annuitiesFIA {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 auto;
+  width: fit-content;
 }
 
 .annuitiesFIA h2 {
@@ -174,6 +179,7 @@ nav a:hover {
   align-items: center;
   margin-bottom: 10px;
   font-weight:bold;
+  text-align: left;
 }
 
 .annuitiesFIA .FIAimage {
@@ -185,6 +191,11 @@ nav a:hover {
 
 .annuitiesMYGA {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 auto;
+  width: fit-content;
 }
 
 .annuitiesMYGA h2 {
@@ -203,6 +214,7 @@ annuitiesMYGA .MYGA-image {
   align-items: center;
   margin-bottom: 10px;
   font-weight:bold;
+  text-align: left;
 }
 
 .annuitiesMYGA .MYGAimage {
