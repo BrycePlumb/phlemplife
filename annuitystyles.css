@@ -95,7 +95,7 @@ p {
 
 
 
-#annuities {
+.annuities {
   text-align: center;
   background-color: #F8F9F9;
   display: flex;
@@ -104,7 +104,7 @@ p {
   width: 100%;
 }
 
-#annuities h1 {
+.annuities h1 {
   color: #0352A9;
   text-align: center;
   margin-bottom: 10px;
@@ -112,21 +112,21 @@ p {
   font-size: 2em;
 }
 
-#annuities .bar-image { /* changed to keep the image at its original size */
+.annuities .bar-image { /* changed to keep the image at its original size */
   width: 80%;
   height: 20px;
   margin: 0 auto;
   display: block;
 }
 
-#annuities p {
+.annuities p {
   text-align: center;
   margin-bottom: 10px;
   width: 75%;
   font-weight:bold;
 }
 
-#annuities .image { /* added to make the image span across the entire screen */
+.annuities .image { /* added to make the image span across the entire screen */
   width: 80%;
   height: auto;
   display: block;
@@ -140,23 +140,23 @@ p {
 
 
 
-#annuitiesschedule {
+.annuitiesschedule {
     text-align: center;
     padding: 20px;
     background-color: white; 
 }
 
-#annuitiesschedule h1 {
+.annuitiesschedule h1 {
     color: #0352A9; /* change the color as desired */
     margin-bottom: 10px; /* add some spacing between the h1 and p */
 }
 
-#annuitiesschedule p {
+.annuitiesschedule p {
     margin-bottom: 20px; /* add some spacing between the p and button */
     font-weight:bold;
 }
 
-#annuitiesschedule .schedule-consultation-button {
+.annuitiesschedule .schedule-consultation-button {
     background-color: #4CAF50; /* change the background color as desired */
     color: white; /* change the text color as desired */
     padding: 12px 20px;
@@ -166,7 +166,7 @@ p {
     font-size: 16px;
 }
 
-#annuitiesschedule .schedule-consultation-button:hover {
+.annuitiesschedule .schedule-consultation-button:hover {
     background-color: #3e8e41; /* change the background color on hover as desired */
 }
 
