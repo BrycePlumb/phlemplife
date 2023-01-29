@@ -206,6 +206,22 @@ width: 75%;
 
 
 
+.meet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.meet-link {
+  background-color: green;
+}
+
+
+
+
+
 .disclosures1 {
   padding-top: 100px;  /* add 20px top padding */
   width: 100vw;
