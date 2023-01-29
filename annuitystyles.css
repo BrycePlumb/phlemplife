@@ -126,7 +126,7 @@ nav a:hover {
 }
 
 
-.annuitiesSPIA h1 {
+.annuitiesSPIA h2 {
   color: #0352A9;
   text-align: center;
   margin-bottom: 10px;
@@ -134,7 +134,7 @@ nav a:hover {
   font-size: 2em;
 }
 
-.annuitiesSPIA .bar-image { /* changed to keep the image at its original size */
+.annuitiesSPIA .SPIA-image { /* changed to keep the image at its original size */
   width: 80%;
   height: 20px;
   margin: 0 auto;
@@ -148,13 +148,16 @@ nav a:hover {
   font-weight:bold;
 }
 
-.annuitiesSPIA .image { /* added to make the image span across the entire screen */
+.annuitiesSPIA .SPIAimage { /* added to make the image span across the entire screen */
   width: 80%;
   height: auto;
   display: block;
   margin: 0 auto;
   margin-bottom: 10px;
 }
+
+
+
 
 
 .annuitiesFIA {
@@ -166,7 +169,7 @@ nav a:hover {
   width: 100%;
 }
 
-.annuitiesFIA h1 {
+.annuitiesFIA h2 {
   color: #0352A9;
   text-align: center;
   margin-bottom: 10px;
@@ -174,7 +177,7 @@ nav a:hover {
   font-size: 2em;
 }
 
-.annuitiesFIA .bar-image { /* changed to keep the image at its original size */
+.annuitiesFIA .FIA-image { /* changed to keep the image at its original size */
   width: 80%;
   height: 20px;
   margin: 0 auto;
@@ -188,13 +191,14 @@ nav a:hover {
   font-weight:bold;
 }
 
-.annuitiesFIA .image { /* added to make the image span across the entire screen */
+.annuitiesFIA .FIAimage { /* added to make the image span across the entire screen */
   width: 80%;
   height: auto;
   display: block;
   margin: 0 auto;
   margin-bottom: 10px;
 }
+
 
 
 
@@ -208,7 +212,7 @@ nav a:hover {
   width: 100%;
 }
 
-.annuitiesMYGA h1 {
+.annuitiesMYGA h2 {
   color: #0352A9;
   text-align: center;
   margin-bottom: 10px;
@@ -216,7 +220,7 @@ nav a:hover {
   font-size: 2em;
 }
 
-.annuitiesMYGA .bar-image { /* changed to keep the image at its original size */
+.annuitiesMYGA .MYGA-image { /* changed to keep the image at its original size */
   width: 80%;
   height: 20px;
   margin: 0 auto;
@@ -230,7 +234,7 @@ nav a:hover {
   font-weight:bold;
 }
 
-.annuitiesMYGA .image { /* added to make the image span across the entire screen */
+.annuitiesMYGA .MYGAimage { /* added to make the image span across the entire screen */
   width: 80%;
   height: auto;
   display: block;
