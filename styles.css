@@ -214,8 +214,26 @@ width: 75%;
   text-align: center;
 }
 
+h2 {
+  color: #0352A9;
+}
+
+.meet .gray-line-image {
+  width: 50%;
+  align-items: center;
+  
+
+p {
+  font-weight: bold;
+}
+
 .meet-link {
   background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 
