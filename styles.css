@@ -95,41 +95,49 @@ p {
 }
 
 
-.annuities-section {
+.annuities {
 text-align: center;
 display: flex;
 flex-direction: column;
 align-items: center;
 }
 
-.first-image {
+.annuities .first-image {
 width: 40%;
 height: auto;
 margin-top: 10px;
 margin-bottom: 10px;
 }
 
-.second-image {
+.annuities h2 {
+color: #0352A9;
+text-align: center;
+margin-bottom: 10px;
+width: 75%;
+}
+
+
+.annuities .second-image {
 width: 20%;
 height: auto;
 margin-bottom: 10px;
 }
 
 
-.annuities-statistic, .annuities-protection {
+.annuities p {
 text-align: center;
 margin-bottom: 10px;
 font-weight:bold;
 width: 75%;
 }
 
-.annuities-link {
+.annuities .annuities-link {
   background-color: green; /* sets the background color to green */
   color: white; /* sets the text color to white */
   border-radius: 10px; /* sets rounded corners */
   padding: 10px 20px; /* adds padding to the button */
   text-decoration: none; /* remove underline from the link */
-    margin-bottom: 1em; /* add more space as per your requirement */
+  margin-bottom: 1em; /* add more space as per your requirement */
 }
 
 .superscript1 {
@@ -143,7 +151,7 @@ width: 75%;
 
 
 
-.life-insurance-section {
+.life-insurance {
  display: flex;
  flex-direction: column;
  align-items: center;
@@ -151,34 +159,36 @@ width: 75%;
  background-color: #F8F9F9;
 }
 
-.life-insurance-section #third-image {
+.life-insurance .third-image {
  width: 40%;
  height: auto;
  margin-top: 10px;
  margin-bottom: 10px;
 }
 
+.life-insurance h2 {
+ color: #0352A9;
+ text-align: center;
+ margin-bottom: 10px;
+}
 
-.life-insurance-section #fourth-image {
+
+.life-insurance .fourth-image {
  width: 10%;
  height: auto;
  margin-bottom: 10px;
 }
 
-.life-insurance-section #life-insurance-description {
+
+
+.life-insurance p {
  text-align: center;
  margin-bottom: 10px;
  font-weight:bold;
 }
 
-.life-insurance-section #life-insurance-statistic {
- text-align: center;
- margin-bottom: 10px;
- font-weight:bold;
-}
 
-
-.life-insurance-link {
+.life-insurance .life-insurance-link {
   background-color: green; /* sets the background color to green */
   color: white; /* sets the text color to white */
   border-radius: 10px; /* sets rounded corners */
@@ -202,13 +212,22 @@ margin: 0; / remove the automatic margin /
 background-color: white; / add a background color /
 font-size: 9px; / change font size */
 }
-  
+
+.disclosures1 p {
+width: 100vw; /* make the section take up the full width of the viewport /
+margin: 0; / remove the automatic margin /
+background-color: white; / add a background color /
+font-size: 9px; / change font size */
+}
+ 
+
+
+
 }
 .footer1 {
     background-color: #333; /* add a background color */
     color: #fff; /* change the text color */
     padding: 10px; /* add padding to the section */
-    text-align: center; /* center the text */
 }
 
 .footer a {
