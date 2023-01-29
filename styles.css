@@ -207,18 +207,18 @@ width: 75%;
 
 
 .disclosures1 {
-width: 100vw; /* make the section take up the full width of the viewport /
-margin: 0; / remove the automatic margin /
-background-color: white; / add a background color /
-font-size: 9px; / change font size */
+  width: 100vw;
+  margin: 0;
+  background-color: white;
+  font-size: 9px;
 }
 
 .disclosures1 p {
-width: 100vw; /* make the section take up the full width of the viewport /
-margin: 0; / remove the automatic margin /
-background-color: white; / add a background color /
-font-size: 9px; / change font size */
+  width: 100vw;
+  background-color: white;
+  font-size: 9px;
 }
+
  
 
 
