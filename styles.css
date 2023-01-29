@@ -95,35 +95,35 @@ p {
 }
 
 
-#annuities-section {
+.annuities-section {
 text-align: center;
 display: flex;
 flex-direction: column;
 align-items: center;
 }
 
-#first-image {
+.first-image {
 width: 40%;
 height: auto;
 margin-top: 10px;
 margin-bottom: 10px;
 }
 
-#second-image {
+.second-image {
 width: 20%;
 height: auto;
 margin-bottom: 10px;
 }
 
 
-#annuities-statistic, #annuities-protection {
+.annuities-statistic, .annuities-protection {
 text-align: center;
 margin-bottom: 10px;
 font-weight:bold;
 width: 75%;
 }
 
-#annuities-link {
+.annuities-link {
   background-color: green; /* sets the background color to green */
   color: white; /* sets the text color to white */
   border-radius: 10px; /* sets rounded corners */
@@ -143,7 +143,7 @@ width: 75%;
 
 
 
-#life-insurance-section {
+.life-insurance-section {
  display: flex;
  flex-direction: column;
  align-items: center;
@@ -151,7 +151,7 @@ width: 75%;
  background-color: #F8F9F9;
 }
 
-#life-insurance-section #third-image {
+.life-insurance-section #third-image {
  width: 40%;
  height: auto;
  margin-top: 10px;
@@ -159,26 +159,26 @@ width: 75%;
 }
 
 
-#life-insurance-section #fourth-image {
+.life-insurance-section #fourth-image {
  width: 10%;
  height: auto;
  margin-bottom: 10px;
 }
 
-#life-insurance-section #life-insurance-description {
+.life-insurance-section #life-insurance-description {
  text-align: center;
  margin-bottom: 10px;
  font-weight:bold;
 }
 
-#life-insurance-section #life-insurance-statistic {
+.life-insurance-section #life-insurance-statistic {
  text-align: center;
  margin-bottom: 10px;
  font-weight:bold;
 }
 
 
-#life-insurance-link {
+.life-insurance-link {
   background-color: green; /* sets the background color to green */
   color: white; /* sets the text color to white */
   border-radius: 10px; /* sets rounded corners */
@@ -200,7 +200,6 @@ width: 75%;
 width: 100vw; /* make the section take up the full width of the viewport /
 margin: 0; / remove the automatic margin /
 background-color: white; / add a background color /
-text-align: center; / center the text /
 font-size: 9px; / change font size */
 }
   
