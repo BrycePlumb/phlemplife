@@ -120,23 +120,23 @@ nav a:hover {
   text-align: center;
 }
 
-h2 {
+.annuitiesSPIA h2 {
   color: #55A569
   margin-bottom: 30px;
 }
 
-.SPIA-image {
+.annuitiesSPIA .SPIA-image {
   display: block;
   margin: 0 auto;
 }
 
-p {
+.annuitiesSPIA p {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
 }
 
-.SPIAimage {
+.annuitiesSPIA .SPIAimage {
   margin-right: 10px;
 }
 
@@ -149,23 +149,23 @@ p {
   text-align: center;
 }
 
-h2 {
+.annuitiesFIA h2 {
   color: #167799
   margin-bottom: 30px;
 }
 
-.FIA-image {
+.annuitiesFIA .FIA-image {
   display: block;
   margin: 0 auto;
 }
 
-p {
+.annuitiesFIA p {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
 }
 
-.FIAimage {
+.annuitiesFIA .FIAimage {
   margin-right: 10px;
 }
 
@@ -176,23 +176,23 @@ p {
   text-align: center;
 }
 
-h2 {
+.annuitiesMYGA h2 {
   color: #ECBD55
   margin-bottom: 30px;
 }
 
-.MYGA-image {
+annuitiesMYGA .MYGA-image {
   display: block;
   margin: 0 auto;
 }
 
-p {
+.annuitiesMYGA p {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
 }
 
-.MYGAimage {
+.annuitiesMYGA .MYGAimage {
   margin-right: 10px;
 }
 
