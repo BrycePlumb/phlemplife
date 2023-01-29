@@ -207,6 +207,7 @@ width: 75%;
 
 
 .disclosures1 {
+  padding-top: 100px;  /* add 20px top padding */
   width: 100vw;
   margin: 0;
   background-color: white;
