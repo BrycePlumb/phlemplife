@@ -118,43 +118,27 @@ nav a:hover {
 
 .annuitiesSPIA {
   text-align: center;
-  background-color: #F8F9F9;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+.SPIA-image {
+  display: block;
+  margin: 0 auto;
+}
+
+p {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  width: 100%;
-}
-
-
-.annuitiesSPIA h2 {
-  color: #0352A9;
-  text-align: center;
-  margin-bottom: 10px;
-  width: 100%;
-  font-size: 2em;
-}
-
-.annuitiesSPIA .SPIA-image { /* changed to keep the image at its original size */
-  width: 80%;
-  height: 20px;
-  margin: 0 auto;
-  display: block;
-}
-
-.annuitiesSPIA p {
-  text-align: center;
-  margin-bottom: 10px;
-  width: 75%;
-  font-weight:bold;
-}
-
-.annuitiesSPIA .SPIAimage { /* added to make the image span across the entire screen */
-  width: 80%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
   margin-bottom: 10px;
 }
+
+.SPIAimage {
+  margin-right: 10px;
+}
+
 
 
 
@@ -162,84 +146,51 @@ nav a:hover {
 
 .annuitiesFIA {
   text-align: center;
-  background-color: #F8F9F9;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+.FIA-image {
+  display: block;
+  margin: 0 auto;
+}
+
+p {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  width: 100%;
-}
-
-.annuitiesFIA h2 {
-  color: #0352A9;
-  text-align: center;
-  margin-bottom: 10px;
-  width: 100%;
-  font-size: 2em;
-}
-
-.annuitiesFIA .FIA-image { /* changed to keep the image at its original size */
-  width: 80%;
-  height: 20px;
-  margin: 0 auto;
-  display: block;
-}
-
-.annuitiesFIA p {
-  text-align: center;
-  margin-bottom: 10px;
-  width: 75%;
-  font-weight:bold;
-}
-
-.annuitiesFIA .FIAimage { /* added to make the image span across the entire screen */
-  width: 80%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
   margin-bottom: 10px;
 }
 
+.FIAimage {
+  margin-right: 10px;
+}
 
 
 
 
 .annuitiesMYGA {
   text-align: center;
-  background-color: #F8F9F9;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+.MYGA-image {
+  display: block;
+  margin: 0 auto;
+}
+
+p {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  width: 100%;
-}
-
-.annuitiesMYGA h2 {
-  color: #0352A9;
-  text-align: center;
   margin-bottom: 10px;
-  width: 100%;
-  font-size: 2em;
 }
 
-.annuitiesMYGA .MYGA-image { /* changed to keep the image at its original size */
-  width: 80%;
-  height: 20px;
-  margin: 0 auto;
-  display: block;
-}
-
-.annuitiesMYGA p {
-  text-align: center;
-  margin-bottom: 10px;
-  width: 75%;
-  font-weight:bold;
-}
-
-.annuitiesMYGA .MYGAimage { /* added to make the image span across the entire screen */
-  width: 80%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 10px;
+.MYGAimage {
+  margin-right: 10px;
 }
 
 
