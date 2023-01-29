@@ -80,14 +80,14 @@ nav a:hover {
     padding: 20px;
 }
 
-h1 {
+.welcome h1 {
     color: #0352A9;
     padding: 10px;
     margin: 0;
     width: 80%;
 }
 
-p {
+.welcome p {
     padding: 10px;
     margin: 0;
     width: 75%;
