@@ -111,7 +111,7 @@ nav a:hover {
    margin-top: 3em; /* add more space as per your requirement */
 }
 
-.personal h1 {
+.personal p {
     font-size: 1.2em;
     color: black;
     text-align: center;
@@ -136,7 +136,7 @@ nav a:hover {
     margin-top: 3em; /* add more space as per your requirement */
 }
 
-.business h1 {
+.business p {
     font-size: 1.2em;
     color: black;
     text-align: center;
@@ -161,7 +161,7 @@ nav a:hover {
     
 }
 
-.medical h1 {
+.medical p {
     font-size: 1.2em;
     color: black;
     text-align: center;
@@ -177,7 +177,7 @@ nav a:hover {
 }
 
 
-.planning h1 {
+.planning p {
      font-size: 1.2em;
     color: black;
     text-align: center;
@@ -210,7 +210,7 @@ nav a:hover {
   margin: 0 auto;
 }
 
-.Insurance h1 {
+.Insurance h2 {
     font-size: 1.2em;
     color: #0352A9;
     text-align: center;
@@ -247,7 +247,7 @@ nav a:hover {
 }
 
 /* Consultation Header */
-.consultation h1 {
+.consultation h2 {
     color: #0352A9; /* change the color as desired */
     margin-bottom: 10px; /* add some spacing between the h1 and p */
 }
