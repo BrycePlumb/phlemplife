@@ -259,6 +259,10 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
+.consultation .gray-line-image {
+  width: 50%;
+  margin-bottom: 20px;
+}
 
 .consultation p {
   font-weight: bold;
