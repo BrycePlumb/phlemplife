@@ -86,12 +86,19 @@ nav a:hover {
     color: #0352A9; /* This will change the color of the h1 text to #0352A9 */
     padding: 10px;
     text-align: center;
-  
 }
+
+
+.gray-line-image {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
 
 .life-insurance p {
     padding: 10px;
     text-align: center;
+   font-weight:bold;
 }
 
 
