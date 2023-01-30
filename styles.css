@@ -219,15 +219,17 @@ width: 75%;
 
 .meet h2 {
   color: #0352A9;
+  margin-bottom: 20px;
 }
 
 .meet .gray-line-image {
   width: 50%;
-  align-items: center;
-  
+  margin-bottom: 20px;
+}
 
 .meet p {
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .meet-link {
@@ -239,6 +241,7 @@ width: 75%;
   font-weight: bold;
   margin-top: 20px;
 }
+
 
 
 
