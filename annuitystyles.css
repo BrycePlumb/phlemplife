@@ -116,110 +116,34 @@ nav a:hover {
 
 
 
-.annuitiesSPIA {
-  text-align: left;
+.annuitiesSPIA, .annuitiesFIA, .annuitiesMYGA {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  margin: 0 auto;
-  width: fit-content;
-}
-
-.annuitiesSPIA h2 {
-  color: #55A569;
-  margin-bottom: 30px;
-}
-
-.annuitiesSPIA .SPIA-image {
-  display: block;
-  margin: 0 auto;
   align-items: center;
+  text-align: center;
+  padding: 20px;
 }
 
-.annuitiesSPIA p {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-  font-weight:bold;
-  text-align: left;
+.annuitiesSPIA h2, .annuitiesFIA h2, .annuitiesMYGA h2 {
+  color: #0352A9;
+  margin-bottom: 20px;
 }
 
-.annuitiesSPIA .SPIAimage {
+.SPIA-image, .FIA-image, .MYGA-image {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.SPIAimage, .FIAimage, .MYGAimage {
   margin-right: 10px;
+  width: 20px;
 }
 
-
-
-
-
-
-
-.annuitiesFIA {
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin: 0 auto;
-  width: fit-content;
-}
-
-.annuitiesFIA h2 {
-  color: #167799;
-  margin-bottom: 30px;
-}
-
-.annuitiesFIA .FIA-image {
-  display: block;
-  margin: 0 auto;
-  align-items: center;
-}
-
-.annuitiesFIA p {
-  display: flex;
-  align-items: center;
+.annuitiesSPIA p, .annuitiesFIA p, .annuitiesMYGA p {
+  font-weight: bold;
   margin-bottom: 10px;
-  font-weight:bold;
-  text-align: left;
 }
 
-.annuitiesFIA .FIAimage {
-  margin-right: 10px;
-}
-
-
-
-
-.annuitiesMYGA {
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin: 0 auto;
-  width: fit-content;
-}
-
-.annuitiesMYGA h2 {
-  color: #ECBD55;
-  margin-bottom: 30px;
-}
-
-annuitiesMYGA .MYGA-image {
-  display: block;
-  margin: 0 auto;
-  align-items: center;
-}
-
-.annuitiesMYGA p {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-  font-weight:bold;
-  text-align: left;
-}
-
-.annuitiesMYGA .MYGAimage {
-  margin-right: 10px;
-}
 
 
 
