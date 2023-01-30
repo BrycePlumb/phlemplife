@@ -87,6 +87,12 @@ nav a:hover {
     width: 80%;
 }
 
+
+.gray-line-image {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
 .welcome p {
     padding: 10px;
     margin: 0;
