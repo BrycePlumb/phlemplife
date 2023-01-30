@@ -241,23 +241,28 @@ nav a:hover {
   
   
   
-/* Consultation Section */
+
 .consultation {
-    text-align: center;
-    padding: 20px;
-    background-color: #F8F9F9;
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 100px;
+  height: 75vh;
+  width: 100vw;
 }
 
-/* Consultation Header */
+
 .consultation h2 {
-    color: #0352A9; /* change the color as desired */
-    margin-bottom: 10px; /* add some spacing between the h1 and p */
+   color: #0352A9;
+  margin-bottom: 20px;
 }
 
 
-/* Consultation Paragraph */
 .consultation p {
-    margin-bottom: 20px; /* add some spacing between the p and button */
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 /* Schedule Consultation Button */
