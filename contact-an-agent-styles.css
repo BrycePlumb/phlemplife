@@ -98,40 +98,32 @@ nav a:hover {
 
 
 
-
-
-
-
-
-
-
-/* Form Styles */
-form {
-  margin: 2rem auto;
-  width: 75%;
+.availability {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin: 20px 0;
 }
 
-form label {
-  display: block;
-  margin-bottom: 0.5rem;
+.availability a {
+  color: #337ab7;
+  text-decoration: none;
 }
 
-form input[type="text"],
-form input[type="email"],
-form input[type="number"],
-form select,
-form textarea {
-  border: 1px solid #ccc;
-  padding: 0.5rem;
-  width: 100%;
+.availability a:hover {
+  color: #23527c;
+  text-decoration: underline;
 }
 
-form input[type="submit"] {
-  background-color: #4CAF50;
-  color: #fff;
-  margin-top: 1rem;
-  padding: 0.5rem 1rem;
-}
+
+
+
+
+
+
+
+
 
        .footer {
             background-color: #333;
