@@ -119,18 +119,21 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
   padding: 20px;
 }
 
 .annuitiesSPIA h2, .annuitiesFIA h2, .annuitiesMYGA h2 {
   color: black;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .SPIA-image, .FIA-image, .MYGA-image {
   width: 50%;
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .SPIAimage, .FIAimage, .MYGAimage {
@@ -141,8 +144,7 @@ nav a:hover {
 .annuitiesSPIA p, .annuitiesFIA p, .annuitiesMYGA p {
   font-weight: bold;
   margin-bottom: 10px;
-  text-align: center;
-  text-align-last: left;
+  text-align: left;
 }
 
 
