@@ -141,6 +141,8 @@ nav a:hover {
 .annuitiesSPIA p, .annuitiesFIA p, .annuitiesMYGA p {
   font-weight: bold;
   margin-bottom: 10px;
+  text-align: center;
+  text-align-last: left;
 }
 
 
