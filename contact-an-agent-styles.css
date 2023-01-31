@@ -64,41 +64,46 @@ nav a:hover {
 }
 
 
-/* Main Content Styles */
-section {
-  margin: 2rem 0;
+.welcome {
+    display: flex;
+    background-color: #F8F9F9;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
 }
 
-section h1,
-section h2,
-section h3 {
-  text-align: center;
+.welcome h1 {
+    color: #0352A9;
+    padding: 10px;
+    margin: 0;
+    width: 80%;
 }
 
-.product-container {
-  display: flex;
-  justify-content: space-between;
+
+.gray-line-image {
+  width: 50%;
+  margin-bottom: 20px;
 }
 
-.product {
-  flex: 1;
-  text-align: center;
+.welcome p {
+    padding: 10px;
+    margin: 0;
+    width: 75%;
+    font-weight:bold;
 }
 
-.product img {
-  height: 75px;
-  margin: 0 auto 1rem;
-}
 
-.product a.button {
-  background-color: #4CAF50;
-  color: #fff;
-  display: block;
-  margin: 1rem auto;
-  padding: 0.5rem 1rem;
-  text-align: center;
-  width: 75%;
-}
+
+
+
+
+
+
+
+
+
 
 /* Form Styles */
 form {
