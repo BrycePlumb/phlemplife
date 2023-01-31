@@ -273,7 +273,9 @@ nav a:hover {
 
 .consultation .gray-line-image {
   width: 50%;
-  margin-bottom: 20px;
+  height: 1px;
+  max-width: 600px;
+  margin: 40px 0;
 }
 
 .consultation p {
@@ -348,8 +350,6 @@ display: block;
 }
 
 
-
-  
   
   
 /* Mobile styles for hero section */
@@ -362,4 +362,17 @@ display: block;
         height: 120px; /* set a smaller height for the logo-image on mobile */
     }
 }
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+  .Insurance .image {
+    width: 80%;
+  }
+}
+
+
+
 
