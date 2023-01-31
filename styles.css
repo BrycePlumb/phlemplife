@@ -280,14 +280,16 @@ width: 75%;
 
 }
 .footer1 {
-    background-color: #333; /* add a background color */
-    color: #fff; /* change the text color */
-    padding: 10px; /* add padding to the section */
-}
+        background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
 
 .footer a {
-    color: #fff; /* change the link color */
-}
+       color: #fff;
+            text-decoration: underline;
+        }
 
 
 
