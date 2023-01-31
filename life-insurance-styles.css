@@ -284,6 +284,7 @@ nav a:hover {
 
 /* Schedule Consultation Button */
     .schedule-consultation-button {
+    text-decoration: none;
     background-color: #0352A9;
     color: white; /* change the text color as desired */
     padding: 12px 20px;
@@ -293,9 +294,7 @@ nav a:hover {
     font-size: 16px;
 }
 
-    section#consultation .schedule-consultation-button {
-    background-color: #3e8e41; /* change the background color on hover as desired */
-}
+
 
 
 .disclosures3 {
