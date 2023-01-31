@@ -149,36 +149,42 @@ nav a:hover {
 
 
 .annuitiesschedule {
-    height: 75vh;
-    width: 100vw;
-    text-align: center;
-    padding: 20px;
-    background-color: white; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 100px;
+  height: 75vh;
+  width: 100vw;
 }
 
 .annuitiesschedule h2 {
-    color: #0352A9; /* change the color as desired */
-    margin-bottom: 10px; /* add some spacing between the h1 and p */
+  color: #0352A9;
+  margin-bottom: 20px;
 }
 
+.annuitiesschedule .gray-line-image {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+
 .annuitiesschedule p {
-    margin-bottom: 20px; /* add some spacing between the p and button */
-    font-weight:bold;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .annuitiesschedule .schedule-consultation-button {
-    background-color: #4CAF50; /* change the background color as desired */
-    color: white; /* change the text color as desired */
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer; /* make the cursor change when hovering over the button */
-    font-size: 16px;
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
 }
 
-.annuitiesschedule .schedule-consultation-button:hover {
-    background-color: #3e8e41; /* change the background color on hover as desired */
-}
 
 
 
