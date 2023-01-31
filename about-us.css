@@ -7,7 +7,7 @@ body {
 
 /* Header */
 header {
-  background-color: #39a5dc;
+  background-color: #0352A9;
   color: #fff;
   text-align: center;
   padding: 20px;
@@ -130,7 +130,7 @@ nav a:hover {
 }
 
 .meet-link {
-  background-color: green;
+  background-color: #0352A9;
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
