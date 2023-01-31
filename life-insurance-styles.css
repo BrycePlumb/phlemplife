@@ -295,7 +295,8 @@ nav a:hover {
 }
 
     section#consultation .schedule-consultation-button {
-    background-color: #3e8e41; /* change the background color on hover as desired */
+   text-decoration: none;
+  background-color: #3e8e41;
 }
 
 
