@@ -111,6 +111,48 @@ nav a:hover {
 
 
 
+.SPIA {
+  text-align: center;
+}
+
+.SPIA h2 {
+  margin-bottom: 1em;
+}
+
+.SPIA-image {
+  display: block;
+  margin: 0 auto 1em;
+  max-width: 100%;
+}
+
+.FIA {
+  background-color: #F8F9F9;
+  text-align: center;
+}
+
+.FIA h2 {
+  margin-bottom: 1em;
+}
+
+.FIA-image {
+  display: block;
+  margin: 0 auto 1em;
+  max-width: 100%;
+}
+
+.MYGA {
+  text-align: center;
+}
+
+.MYGA h2 {
+  margin-bottom: 1em;
+}
+
+.MYGA-image {
+  display: block;
+  margin: 0 auto 1em;
+  max-width: 100%;
+}
 
 
 
