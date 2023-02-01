@@ -124,12 +124,20 @@ nav a:hover {
   margin-right: 10px;
 }
 
+
+.annuitiesSPIA p, .annuitiesFIA p, .annuitiesMYGA p {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
 .SPIA-image, .FIA-image, .MYGA-image {
   display: block;
   margin: 0 auto;
   width: 50px;
   height: 50px;
 }
+
 
 .annuitiesSPIA h2, .annuitiesFIA h2, .annuitiesMYGA h2 {
   font-size: 36px;
@@ -141,6 +149,9 @@ nav a:hover {
   margin-top: 20px;
   color: gray;
 }
+
+
+
 
 
 
