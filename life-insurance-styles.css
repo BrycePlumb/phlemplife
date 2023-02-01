@@ -238,7 +238,6 @@ nav a:hover {
 }
 
 .Insurance p {
-  background-color: #F8F9F9;
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -255,6 +254,7 @@ nav a:hover {
   
 
 .consultation {
+  background-color: #F8F9F9;
    display: flex;
   flex-direction: column;
   align-items: center;
