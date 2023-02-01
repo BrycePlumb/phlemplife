@@ -125,6 +125,13 @@ nav a:hover {
   max-width: 100%;
 }
 
+.SPIA p {
+      padding: 10px;
+    margin: 0;
+    width: 75%;
+    font-weight:bold;
+}
+
 .FIA {
   background-color: #F8F9F9;
   text-align: center;
@@ -138,6 +145,13 @@ nav a:hover {
   display: block;
   margin: 0 auto 1em;
   max-width: 100%;
+}
+
+.FIA p {
+      padding: 10px;
+    margin: 0;
+    width: 75%;
+    font-weight:bold;
 }
 
 .MYGA {
@@ -154,6 +168,12 @@ nav a:hover {
   max-width: 100%;
 }
 
+.MYGA p {
+      padding: 10px;
+    margin: 0;
+    width: 75%;
+    font-weight:bold;
+}
 
 
 .annuitiesschedule {
