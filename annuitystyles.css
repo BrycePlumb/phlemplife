@@ -124,6 +124,7 @@ nav a:hover {
 
 .SPIAimage, .FIAimage, .MYGAimage {
   margin-right: 10px;
+  height: 20px;
 }
 
 .SPIA-image, .FIA-image, .MYGA-image {
