@@ -156,6 +156,36 @@ nav a:hover {
 
 
 
+.annuitiesschedule {
+  text-align: center;
+}
+
+.annuitiesschedule h2 {
+  margin-bottom: 2em;
+}
+
+.gray-line-image {
+  display: block;
+  margin: 0 auto 1em;
+  max-width: 100%;
+}
+
+.annuitiesschedule p {
+  margin-bottom: 2em;
+}
+
+.schedule-consultation-button {
+  display: inline-block;
+  padding: 1em 2em;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+}
+
+
+
 
 
 .disclosures2 {
