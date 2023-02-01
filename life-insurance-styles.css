@@ -318,6 +318,16 @@ nav a:hover {
   margin: 0;
 }
 
+.Texas {
+  width: 100%;
+  background-color: #F8F9F9;
+  font-size: 10px;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
  
        .footer {
             background-color: #333;
