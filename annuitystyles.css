@@ -126,6 +126,7 @@ nav a:hover {
 }
 
 .SPIA p {
+  text-align: center;
       padding: 10px;
     margin: 0;
     width: 75%;
@@ -148,6 +149,7 @@ nav a:hover {
 }
 
 .FIA p {
+  text-align: center;
       padding: 10px;
     margin: 0;
     width: 75%;
@@ -169,6 +171,7 @@ nav a:hover {
 }
 
 .MYGA p {
+  text-align: center;
       padding: 10px;
     margin: 0;
     width: 75%;
