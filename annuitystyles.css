@@ -118,6 +118,7 @@ nav a:hover {
 .SPIA h2 {
   color: #55A569;
   margin-bottom: 1em;
+  text-align: center;
 }
 
 .SPIA-image {
@@ -128,10 +129,10 @@ nav a:hover {
 
 .SPIA p {
   text-align: center;
-      padding: 10px;
-    margin: 0;
-    width: 75%;
-    font-weight:bold;
+  padding: 10px;
+  margin: 0 auto;
+  width: 100%;
+  font-weight: bold;
 }
 
 .FIA {
@@ -142,20 +143,21 @@ nav a:hover {
 .FIA h2 {
   color: #167799;
   margin-bottom: 1em;
+  text-align: center;
 }
 
 .FIA-image {
-  display: block;
+   display: block;
   margin: 0 auto 1em;
   max-width: 100%;
 }
 
 .FIA p {
   text-align: center;
-      padding: 10px;
-    margin: 0;
-    width: 75%;
-    font-weight:bold;
+  padding: 10px;
+  margin: 0 auto;
+  width: 100%;
+  font-weight: bold;
 }
 
 .MYGA {
@@ -165,20 +167,21 @@ nav a:hover {
 .MYGA h2 {
   color: #ECBD55;
   margin-bottom: 1em;
+  text-align: center;
 }
 
 .MYGA-image {
-  display: block;
+   display: block;
   margin: 0 auto 1em;
   max-width: 100%;
 }
 
 .MYGA p {
   text-align: center;
-      padding: 10px;
-    margin: 0;
-    width: 75%;
-    font-weight:bold;
+  padding: 10px;
+  margin: 0 auto;
+  width: 100%;
+  font-weight: bold;
 }
 
 
