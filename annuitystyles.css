@@ -165,7 +165,7 @@ nav a:hover {
   display: block;
 }
 
-.FIA p {
+.FIA p strong{
   font-weight: bold;
 }
 
@@ -194,7 +194,7 @@ nav a:hover {
   display: block;
 }
 
-.MYGA p {
+.MYGA p strong{
    font-weight: bold;
 }
 
