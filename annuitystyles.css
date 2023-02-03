@@ -130,12 +130,9 @@ nav a:hover {
 }
 
 .SPIA .SPIA-image {
-display: block;
-width: 100%;
-height: 3px;
-position: absolute;
-bottom: -10px;
-left: 0;
+  width: 80%;
+  margin: 0 auto;
+  display: block;
 }
 
 .SPIA p strong {
@@ -163,12 +160,9 @@ left: 0;
 
 
 .FIA-image {
-display: block;
-width: 100%;
-height: 3px;
-position: absolute;
-bottom: -10px;
-left: 0;
+  width: 80%;
+  margin: 0 auto;
+  display: block;
 }
 
 .FIA p {
@@ -195,12 +189,9 @@ left: 0;
 }
 
 .MYGA-image {
-display: block;
-width: 100%;
-height: 3px;
-position: absolute;
-bottom: -10px;
-left: 0;
+  width: 80%;
+  margin: 0 auto;
+  display: block;
 }
 
 .MYGA p {
