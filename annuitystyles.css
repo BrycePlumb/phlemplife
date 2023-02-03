@@ -112,76 +112,96 @@ nav a:hover {
 
 
 .SPIA {
-  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: justify;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #ccc;
 }
 
 .SPIA h2 {
-  color: #55A569;
-  margin-bottom: 1em;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
   text-align: center;
 }
 
-.SPIA-image {
+.SPIA .SPIA-image {
   display: block;
-  margin: 0 auto 1em;
-  max-width: 100%;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
 }
 
-.SPIA p {
-  text-align: center;
-  padding: 10px;
-  margin: 0 auto;
-  width: 100%;
+.SPIA p strong {
   font-weight: bold;
 }
+
 
 .FIA {
   background-color: #F8F9F9;
-  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: justify;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #ccc;
 }
 
 .FIA h2 {
-  color: #167799;
-  margin-bottom: 1em;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
   text-align: center;
 }
 
+
 .FIA-image {
-   display: block;
-  margin: 0 auto 1em;
-  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
 }
 
 .FIA p {
-  text-align: center;
-  padding: 10px;
-  margin: 0 auto;
-  width: 100%;
   font-weight: bold;
 }
 
+
 .MYGA {
-  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: justify;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #ccc;
 }
 
 .MYGA h2 {
-  color: #ECBD55;
-  margin-bottom: 1em;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
   text-align: center;
 }
 
 .MYGA-image {
-   display: block;
-  margin: 0 auto 1em;
-  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
 }
 
 .MYGA p {
-  text-align: center;
-  padding: 10px;
-  margin: 0 auto;
-  width: 100%;
-  font-weight: bold;
+   font-weight: bold;
 }
 
 
