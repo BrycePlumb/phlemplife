@@ -186,6 +186,7 @@ nav a:hover {
 }
 
 .MYGA h2 {
+  color: #ECBD55
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
@@ -193,7 +194,6 @@ nav a:hover {
 }
 
 .MYGA-image {
-  color: #ECBD55
   width: 50%;
   max heigth: 10px;
   display: block;
