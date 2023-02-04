@@ -97,7 +97,7 @@ nav a:hover {
 
 .form-container {
   width: 80%;
-  margin: 0 auto;
+  margin: 50px auto;
   padding: 20px;
   background-color: #F0F0F0;
   border: 1px solid #CCC;
@@ -147,23 +147,13 @@ nav a:hover {
   background-color: #3E8E41;
 }
 
-
-
-
-
-
-
-
-
-
 .calendly-inline-widget {
   min-width: 320px;
   height: 630px;
-  margin: 50px auto 0;
+  margin: 0 auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 8px;
 }
-
 
 
 
