@@ -199,8 +199,11 @@ nav a:hover {
 }
 
 
-.annuitiesschedule {
-   background-color: white;
+.annuitiesschedule .schedule-consultation-button,
+.annuitiesschedule .form-button {
+  display: inline-block;
+  margin: 10px;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
