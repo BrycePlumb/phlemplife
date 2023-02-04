@@ -97,21 +97,31 @@ nav a:hover {
 }
 
 
-
-
-.center-iframe {
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100%;
+.form-container {
+  text-align: center;
+  margin-top: 50px;
 }
 
-iframe, .calendly-inline-widget {
-width: 90%;
-max-width: 640px;
-margin: 20px auto;
-box-sizing: border-box;
+iframe {
+  width: 80%;
+  height: 600px;
+  max-width: 640px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 20px auto;
 }
+
+.calendly-inline-widget {
+  width: 80%;
+  height: 600px;
+  max-width: 640px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 20px auto;
+}
+
 
 
 
