@@ -253,7 +253,7 @@ nav a:hover {
   
   
 
-.consultation {
+.call {
   background-color: #F8F9F9;
    display: flex;
   flex-direction: column;
@@ -266,19 +266,19 @@ nav a:hover {
 }
 
 
-.consultation h2 {
+.call h2 {
    color: #0352A9;
   margin-bottom: 20px;
 }
 
-.consultation .gray-line-image {
+.call .gray-line-image {
   width: 50%;
   height: 1px;
   max-width: 600px;
   margin: 40px 0;
 }
 
-.consultation p {
+.call p {
   font-weight: bold;
   margin-bottom: 20px;
 }
