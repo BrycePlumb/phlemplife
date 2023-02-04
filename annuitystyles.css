@@ -123,6 +123,7 @@ nav a:hover {
 }
 
 .SPIA h2 {
+  color: #55A569
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
@@ -130,8 +131,8 @@ nav a:hover {
 }
 
 .SPIA .SPIA-image {
-  width: 60%;
-  margin: 0 auto;
+  width: 50%;
+  max heigth: 10px;
   display: block;
 }
 
@@ -152,6 +153,7 @@ nav a:hover {
 }
 
 .FIA h2 {
+  color: #167799
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
@@ -160,8 +162,8 @@ nav a:hover {
 
 
 .FIA-image {
-  width: 60%;
-  margin: 0 auto;
+  width: 50%;
+  max heigth: 10px;
   display: block;
 }
 
@@ -189,8 +191,9 @@ nav a:hover {
 }
 
 .MYGA-image {
-  width: 60%;
-  margin: 0 auto;
+  color: #ECBD55
+  width: 50%;
+  max heigth: 10px;
   display: block;
 }
 
