@@ -98,7 +98,16 @@ nav a:hover {
 
 
 
+.center-iframe {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+}
 
+iframe, .calendly-inline-widget {
+margin: 0 auto;
+}
 
 
 
