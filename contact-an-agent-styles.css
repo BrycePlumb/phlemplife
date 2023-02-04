@@ -165,23 +165,7 @@ nav a:hover {
 
 
 
-.availability {
-  font-size: 16px;
-  font-weight: bold;
-  color: #333;
-  text-align: center;
-  margin: 20px 0;
-}
 
-.availability a {
-  color: #337ab7;
-  text-decoration: none;
-}
-
-.availability a:hover {
-  color: #23527c;
-  text-decoration: underline;
-}
 
 
 
