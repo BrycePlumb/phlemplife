@@ -238,7 +238,7 @@ width: 75%;
   margin-bottom: 20px;
 }
 
-.meet-link {
+.meet .meet-link, .meet .form-link {
   background-color: #0352A9;
   color: white;
   padding: 10px 20px;
