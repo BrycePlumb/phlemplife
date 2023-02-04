@@ -98,6 +98,7 @@ nav a:hover {
 
 
 
+
 .center-iframe {
 display: flex;
 justify-content: center;
@@ -106,9 +107,11 @@ height: 100%;
 }
 
 iframe, .calendly-inline-widget {
-margin: 0 auto;
+width: 90%;
+max-width: 640px;
+margin: 20px auto;
+box-sizing: border-box;
 }
-
 
 
 
