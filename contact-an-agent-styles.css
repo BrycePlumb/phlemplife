@@ -103,9 +103,8 @@ nav a:hover {
 }
 
 iframe {
-  width: 80%;
-  height: 600px;
-  max-width: 640px;
+  width: 100%;
+  height: 75vh;
   border: none;
   border-radius: 8px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -113,9 +112,8 @@ iframe {
 }
 
 .calendly-inline-widget {
-  width: 80%;
-  height: 600px;
-  max-width: 640px;
+  width: 100%;
+  height: 75vh;
   border: none;
   border-radius: 8px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
