@@ -136,7 +136,7 @@ nav a:hover {
   width: 50%;
   max heigth: 10px;
   display: block;
-  text-align: center;
+  align-items: center;
 }
 
 .SPIA p strong {
@@ -168,7 +168,7 @@ nav a:hover {
   width: 50%;
   max heigth: 10px;
   display: block;
-  text-align: center;
+  align-items: center;
 }
 
 .FIA p strong{
@@ -199,7 +199,7 @@ nav a:hover {
   width: 50%;
   max heigth: 10px;
   display: block;
-  text-align: center;
+  align-items: center;
 }
 
 .MYGA p strong{
