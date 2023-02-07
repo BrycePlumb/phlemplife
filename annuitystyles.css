@@ -156,7 +156,7 @@ nav a:hover {
 }
 
 .FIA h2 {
-  color: #167799
+  color: #167799;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
@@ -164,11 +164,11 @@ nav a:hover {
 }
 
 
-.FIA-image {
+.FIA .FIA-image {
   width: 50%;
-  max heigth: 10px;
+  max-height: 10px;
   display: block;
-  align-items: center;
+  margin: 0 auto;
 }
 
 .FIA p strong{
@@ -190,18 +190,18 @@ nav a:hover {
 
 
 .MYGA h2 {
-  color: #ECBD55
+  color: #ECBD55;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
   text-align: center;
 }
 
-.MYGA-image {
+.MYGA .MYGA-image {
   width: 50%;
-  max heigth: 10px;
+  max-height: 10px;
   display: block;
-  align-items: center;
+  margin: 0 auto;
 }
 
 .MYGA p strong{
