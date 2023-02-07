@@ -121,12 +121,10 @@ nav a:hover {
   border-radius: 10px;
   box-shadow: 0px 0px 10px 0px #ccc;
   width: 100%;
- 
-
 }
 
 .SPIA h2 {
-  color: #55A569
+  color: #55A569;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
@@ -135,9 +133,9 @@ nav a:hover {
 
 .SPIA .SPIA-image {
   width: 50%;
-  max heigth: 10px;
+  max-height: 10px;
   display: block;
-  align-items: center;
+  margin: 0 auto;
 }
 
 .SPIA p strong {
