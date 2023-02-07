@@ -120,6 +120,17 @@ nav a:hover {
    margin-top: 3em; /* add more space as per your requirement */
 }
 
+
+.personal h2 {
+    font-size: 1.2em;
+    color: #0352A9;
+    text-align: center;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+  
+
 .personal p {
     font-size: 1.2em;
     color: black;
@@ -143,6 +154,16 @@ nav a:hover {
     display: block;
     text-align: center;
     margin-top: 3em; /* add more space as per your requirement */
+}
+  
+
+.business h2 {
+    font-size: 1.2em;
+    color: #0352A9;
+    text-align: center;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 1em;
 }
 
 .business p {
@@ -170,6 +191,15 @@ nav a:hover {
     
 }
 
+  .medical h2{
+      font-size: 1.2em;
+    color: #0352A9;
+    text-align: center;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
 .medical p {
     font-size: 1.2em;
     color: black;
@@ -183,6 +213,16 @@ nav a:hover {
     text-align: center;
     width: 100%;
     margin: 0 auto;
+}
+
+    
+   .planning h2 { 
+      font-size: 1.2em;
+    color: #0352A9;
+    text-align: center;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 1em;
 }
 
 
