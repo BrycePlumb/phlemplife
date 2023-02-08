@@ -287,21 +287,24 @@ nav a:hover {
   
   
 .term {
-  background-color: #F8F9F9;
-  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: justify;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #ccc;
   width: 100%;
-  margin: 0 auto;
 }
 
 .term h2 {
-    font-size: 1.2em;
-    color: #0352A9;
-    text-align: center;
-    width: 100%;
-    margin-top: 3em;
-    margin-bottom: 1em;
+  color: #55A569;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
 }
-  
 
 .term .gray-line-image {
     /* adjust as needed */
@@ -314,37 +317,37 @@ nav a:hover {
 
 
 .term .Term-Link {
-    width: 100%; /* adjust as needed */
-    height: auto;
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-}
+   display: block;
+    margin: 20px auto 0;
+  }
+
 
 .term p {
-  width: 75%;
   font-weight: bold;
-  margin-bottom: 20px;
 }
-
 
 
   
     
 .wl {
-  background-color: white;
-  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: justify;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #ccc;
   width: 100%;
-  margin: 0 auto;
 }
 
+
 .wl h2 {
-    font-size: 1.2em;
-    color: #0352A9;
-    text-align: center;
-    width: 100%;
-    margin-top: 3em;
-    margin-bottom: 1em;
+  color: #167799;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
 }
   
 
@@ -359,38 +362,41 @@ nav a:hover {
 
 
 .wl .WL-Link {
-    width: 100%; /* adjust as needed */
-    height: auto;
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-}
+  display: block;
+    margin: 20px auto 0;
+  }
+
 
 .wl p {
-  width: 75%;
   font-weight: bold;
-  margin-bottom: 20px;
 }
+
 
 
 
 
 
 .iul {
-  background-color: #F8F9F9;
-  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: justify;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #ccc;
   width: 100%;
-  margin: 0 auto;
 }
 
+
 .iul h2 {
-    font-size: 1.2em;
-    color: #0352A9;
-    text-align: center;
-    width: 100%;
-    margin-top: 3em;
-    margin-bottom: 1em;
+  color: #ECBD55;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
 }
+
   
 
 .iul .gray-line-image {
@@ -404,18 +410,15 @@ nav a:hover {
 
 
 .iul .IUL-Link {
-    width: 100%; /* adjust as needed */
-    height: auto;
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-}
+   display: block;
+    margin: 20px auto 0;
+  }
+
 
 .iul p {
-  width: 75%;
   font-weight: bold;
-  margin-bottom: 20px;
 }
+
 
 
 
