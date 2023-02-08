@@ -143,6 +143,13 @@ nav a:hover {
 }
 
 
+
+  .SPIA-Link {
+    display: block;
+    margin: 20px auto 0;
+  }
+
+
 .FIA {
   background-color: white;
   font-family: Arial, sans-serif;
