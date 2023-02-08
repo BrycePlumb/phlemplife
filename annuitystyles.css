@@ -144,7 +144,7 @@ nav a:hover {
 
 
 
-  .SPIA-Link {
+.SPIA .SPIA-Link {
     display: block;
     margin: 20px auto 0;
   }
@@ -183,6 +183,11 @@ nav a:hover {
 }
 
 
+.FIA .FIA-Link {
+    display: block;
+    margin: 20px auto 0;
+  }
+
 .MYGA {
   font-family: Arial, sans-serif;
   font-size: 14px;
@@ -216,7 +221,10 @@ nav a:hover {
 }
 
 
-
+.MYGA .MYGA-Link {
+    display: block;
+    margin: 20px auto 0;
+  }
   
 
 .call {
