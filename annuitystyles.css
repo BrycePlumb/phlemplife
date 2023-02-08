@@ -313,7 +313,11 @@ nav a:hover {
 
 
 
-
+@media (max-width: 480px) {
+  .SPIA-link, .FIA-link, .MYGA-link {
+    width: 100%;
+  }
+}
 
 
 
