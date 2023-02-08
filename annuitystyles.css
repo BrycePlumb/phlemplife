@@ -145,6 +145,7 @@ nav a:hover {
 
 
 .SPIA .SPIA-Link {
+  text-align: center;
   height: auto;
   width: 50%;
   display: block;
@@ -185,6 +186,7 @@ nav a:hover {
 
 
 .FIA .FIA-Link {
+  text-align: center;
   height: auto;
   width: 50%;
   display: block;
@@ -225,6 +227,7 @@ nav a:hover {
 
 
 .MYGA .MYGA-Link {
+  text-align: center;
   height: auto;
   width: 50%;
   display: block;
