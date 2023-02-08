@@ -313,12 +313,13 @@ nav a:hover {
 
 
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .SPIA-link, .FIA-link, .MYGA-link {
-        width: 80px; /* set a smaller width for the logo-image on mobile */
-        height: 120px; /* set a smaller height for the logo-image on mobile */
+        max-width: 100%; 
+        max-height: 250px; 
     }
 }
+
 
 
 
