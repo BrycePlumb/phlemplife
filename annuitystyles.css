@@ -145,10 +145,11 @@ nav a:hover {
 
 
 .SPIA .SPIA-Link {
-    display: block;
-    margin: 20px auto 0;
-  }
-
+  width: 50%;
+  max-height: 10px;
+  display: block;
+  margin: 0 auto;
+}
 
 .FIA {
   background-color: white;
@@ -184,9 +185,11 @@ nav a:hover {
 
 
 .FIA .FIA-Link {
-    display: block;
-    margin: 20px auto 0;
-  }
+   width: 50%;
+  max-height: 10px;
+  display: block;
+  margin: 0 auto;
+}
 
 .MYGA {
   font-family: Arial, sans-serif;
@@ -222,9 +225,11 @@ nav a:hover {
 
 
 .MYGA .MYGA-Link {
-    display: block;
-    margin: 20px auto 0;
-  }
+   width: 50%;
+  max-height: 10px;
+  display: block;
+  margin: 0 auto;
+}
   
 
 .call {
