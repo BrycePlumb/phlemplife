@@ -315,8 +315,9 @@ nav a:hover {
 
 @media (max-width: 480px) {
   .SPIA-link, .FIA-link, .MYGA-link {
-    width: 100%;
-  }
+        width: 80px; /* set a smaller width for the logo-image on mobile */
+        height: 120px; /* set a smaller height for the logo-image on mobile */
+    }
 }
 
 
