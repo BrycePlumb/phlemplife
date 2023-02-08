@@ -285,16 +285,145 @@ nav a:hover {
   
   
   
+  
+.term {
+  background-color: #F8F9F9;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.term h2 {
+    font-size: 1.2em;
+    color: #0352A9;
+    text-align: center;
+    width: 100%;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+  
+
+.term .gray-line-image {
+    /* adjust as needed */
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+
+.term .Term-Link {
+    width: 100%; /* adjust as needed */
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.term p {
+  width: 75%;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
 
 
 
   
+    
+.wl {
+  background-color: white;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wl h2 {
+    font-size: 1.2em;
+    color: #0352A9;
+    text-align: center;
+    width: 100%;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
   
+
+.wl .gray-line-image {
+    /* adjust as needed */
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+
+.wl .WL-Link {
+    width: 100%; /* adjust as needed */
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.wl p {
+  width: 75%;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+.iul {
+  background-color: #F8F9F9;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.iul h2 {
+    font-size: 1.2em;
+    color: #0352A9;
+    text-align: center;
+    width: 100%;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+  
+
+.iul .gray-line-image {
+    /* adjust as needed */
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+
+.iul .IUL-Link {
+    width: 100%; /* adjust as needed */
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.iul p {
+  width: 75%;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+
   
   
 
 .call {
-  background-color: #F8F9F9;
+  background-color: white;
    display: flex;
   flex-direction: column;
   align-items: center;
