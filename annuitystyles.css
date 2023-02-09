@@ -147,9 +147,17 @@ nav a:hover {
   border: 1px solid #333;
 }
 
+.SPIA p {
+font-family: Arial, sans-serif;
+font-size: 14px;
+line-height: 1.5;
+text-align: justify;
+color: #333;
+}
+
 .SPIA p strong {
-  font-weight: bold;
-  color: #333;
+font-weight: bold;
+color: #55A569;
 }
 
 .SPIA .SPIA-Link {
