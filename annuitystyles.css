@@ -163,7 +163,7 @@ color: #55A569;
 .SPIA .SPIA-Link {
   text-align: center;
   height: auto;
-  width: 50%;
+  width: auto;
   display: block;
   margin: 0 auto;
 }
@@ -209,7 +209,7 @@ color: #55A569;
 .FIA .FIA-Link {
   text-align: center;
   height: auto;
-  width: 50%;
+  width: auto;
   display: block;
   margin: 0 auto;
 }
@@ -250,7 +250,7 @@ color: #55A569;
 .MYGA .MYGA-Link {
   text-align: center;
   height: auto;
-  width: 50%;
+  width: auto;
   display: block;
   margin: 0 auto;
 }
