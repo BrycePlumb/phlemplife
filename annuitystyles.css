@@ -88,7 +88,7 @@ nav a:hover {
 }
 
 .annuities .gray-line-image { /* changed to keep the image at its original size */
-  width: 80%;
+  width: 50%;
   margin: 0 auto;
   display: block;
 }
