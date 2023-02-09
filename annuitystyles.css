@@ -153,6 +153,7 @@ font-size: 14px;
 line-height: 1.5;
 text-align: justify;
 color: #333;
+  max-width: 75%;
 }
 
 .SPIA p strong {
@@ -202,7 +203,17 @@ color: #55A569;
 }
 
 .FIA p strong{
+  color: #0080BF;
   font-weight: bold;
+}
+
+.FIA p {
+font-family: Arial, sans-serif;
+font-size: 14px;
+line-height: 1.5;
+text-align: justify;
+color: #333;
+  max-width: 75%;
 }
 
 
@@ -243,7 +254,18 @@ color: #55A569;
 }
 
 .MYGA p strong{
-   font-weight: bold;
+  color: #FEAA23;
+  font-weight: bold;
+}
+
+
+.MYGA p {
+font-family: Arial, sans-serif;
+font-size: 14px;
+line-height: 1.5;
+text-align: justify;
+color: #333;
+max-width: 75%;
 }
 
 
