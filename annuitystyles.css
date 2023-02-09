@@ -116,7 +116,7 @@ nav a:hover {
   font-family: Arial, sans-serif;
   font-size: 14px;
   line-height: 1.5;
-  text-align: justify;
+  text-align: center;
   padding: 20px;
   background-color: #f9f9f9;
   border-radius: 10px;
@@ -153,7 +153,7 @@ font-size: 14px;
 line-height: 1.5;
 text-align: center;
 color: #333;
-  max-width: 75%;
+width: 75%;
 }
 
 .SPIA p strong {
@@ -179,7 +179,7 @@ color: #55A569;
   font-family: Arial, sans-serif;
   font-size: 14px;
   line-height: 1.5;
-  text-align: justify;
+  text-align: center;
   padding: 20px;
   background-color: #f9f9f9;
   border-radius: 10px;
@@ -208,18 +208,18 @@ color: #55A569;
 }
 
 .FIA p {
-font-family: Arial, sans-serif;
-font-size: 14px;
-line-height: 1.5;
-text-align: center;
-color: #333;
-  max-width: 75%;
+ font-family: Arial, sans-serif;
+ font-size: 14px;
+ line-height: 1.5;
+ text-align: center;
+ color: #333;
+ width: 75%;
 }
 
 
 .FIA .FIA-Link {
   text-align: center;
- height: 191px;
+  height: 191px;
   width: 365px;
   display: block;
   margin: 0 auto;
@@ -229,7 +229,7 @@ color: #333;
   font-family: Arial, sans-serif;
   font-size: 14px;
   line-height: 1.5;
-  text-align: justify;
+  text-align: center;
   padding: 20px;
   background-color: #f9f9f9;
   border-radius: 10px;
@@ -260,12 +260,12 @@ color: #333;
 
 
 .MYGA p {
-font-family: Arial, sans-serif;
-font-size: 14px;
-line-height: 1.5;
-text-align: center;
-color: #333;
-max-width: 75%;
+ font-family: Arial, sans-serif;
+ font-size: 14px;
+ line-height: 1.5;
+ text-align: center;
+ color: #333;
+ width: 75%;
 }
 
 
