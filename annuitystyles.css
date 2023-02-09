@@ -161,15 +161,10 @@ color: #55A569;
 }
 
 .SPIA .SPIA-Link {
-  text-align: center;
-  display: inline-block;
-  margin-top: 20px;
-  padding: 10px 20px;
-  background-color: #55A569;
-  border-radius: 5px;
-  color: #fff;
-  text-decoration: none;
-  transition: all 0.2s ease-in-out;
+   width: 50%;
+  max-height: 10px;
+  display: block;
+  margin: 0 auto;
 }
 
 .SPIA .SPIA-Link:hover {
