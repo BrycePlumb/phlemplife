@@ -287,24 +287,30 @@ nav a:hover {
   
   
 .term {
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.5;
-  text-align: justify;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px 0px #ccc;
-  width: 100%;
+font-family: Arial, sans-serif;
+font-size: 14px;
+line-height: 1.5;
+text-align: center;
+padding: 20px;
+margin: 0 auto;
+background-color: #f9f9f9;
+border-radius: 10px;
+box-shadow: 0px 0px 5px 0px #ccc; 
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
 }
 
 .term h2 {
-  color: #55A569;
+  color: #259922;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
   text-align: center;
 }
+
 
 .term .gray-line-image {
     /* adjust as needed */
@@ -325,33 +331,45 @@ nav a:hover {
 
 
 .term p {
-  font-weight: bold;
+font-family: Arial, sans-serif;
+font-size: 14px;
+line-height: 1.5;
+text-align: center;
+color: #333;
+width: 75%;
 }
 
+.term p strong {
+font-weight: bold;
+color: #55A569;
+}
 
   
     
 .wl {
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.5;
-  text-align: justify;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px 0px #ccc;
-  width: 100%;
+font-family: Arial, sans-serif;
+font-size: 14px;
+line-height: 1.5;
+text-align: center;
+padding: 20px;
+margin: 0 auto;
+background-color: #f9f9f9;
+border-radius: 10px;
+box-shadow: 0px 0px 5px 0px #ccc; 
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
 }
 
-
 .wl h2 {
-  color: #167799;
+  color: #0080BF;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
   text-align: center;
 }
-  
 
 .wl .gray-line-image {
     /* adjust as needed */
@@ -371,6 +389,16 @@ nav a:hover {
 }
 
 .wl p {
+ font-family: Arial, sans-serif;
+ font-size: 14px;
+ line-height: 1.5;
+ text-align: center;
+ color: #333;
+ width: 75%;
+}
+
+.wl p strong{
+  color: #0080BF;
   font-weight: bold;
 }
 
@@ -380,20 +408,26 @@ nav a:hover {
 
 
 .iul {
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.5;
-  text-align: justify;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px 0px #ccc;
-  width: 100%;
+font-family: Arial, sans-serif;
+font-size: 14px;
+line-height: 1.5;
+text-align: center;
+padding: 20px;
+margin: 0 auto;
+background-color: #f9f9f9;
+border-radius: 10px;
+box-shadow: 0px 0px 5px 0px #ccc; 
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
 }
 
 
+
 .iul h2 {
-  color: #ECBD55;
+  color: #FEAA23;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
@@ -421,10 +455,19 @@ nav a:hover {
 
 
 .iul p {
-  font-weight: bold;
+ font-family: Arial, sans-serif;
+ font-size: 14px;
+ line-height: 1.5;
+ text-align: center;
+ color: #333;
+ width: 75%;
 }
 
 
+.iul p strong{
+  color: #FEAA23;
+  font-weight: bold;
+}
 
 
   
