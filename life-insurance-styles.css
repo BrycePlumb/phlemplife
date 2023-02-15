@@ -1,5 +1,6 @@
 /* Basic styling */
 body {
+  width: 100%;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -291,12 +292,9 @@ font-family: Arial, sans-serif;
 font-size: 14px;
 line-height: 1.5;
 text-align: center;
-padding: 20px;
-margin: 0 auto;
 background-color: #f9f9f9;
 width: 100%;
 display: flex;
-justify-content: center;
 align-items: center;
 flex-direction: column;
 }
@@ -349,12 +347,9 @@ font-family: Arial, sans-serif;
 font-size: 14px;
 line-height: 1.5;
 text-align: center;
-padding: 20px;
-margin: 0 auto;
 background-color: white;
 width: 100%;
 display: flex;
-justify-content: center;
 align-items: center;
 flex-direction: column;
 }
@@ -408,12 +403,9 @@ font-family: Arial, sans-serif;
 font-size: 14px;
 line-height: 1.5;
 text-align: center;
-padding: 20px;
-margin: 0 auto;
 background-color: #f9f9f9;
 width: 100%;
 display: flex;
-justify-content: center;
 align-items: center;
 flex-direction: column;
 }
@@ -469,7 +461,7 @@ flex-direction: column;
 
 .call {
   background-color: white;
-   display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
